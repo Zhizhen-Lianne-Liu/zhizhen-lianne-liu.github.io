@@ -31,7 +31,6 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true
-          cache-version: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -47,16 +46,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Install Jekyll dependencies
-        run: |
-          gem install bundler
-          bundle init
-          echo 'gem "jekyll", "~> 4.3.2"' >> Gemfile
-          echo 'gem "minima", "~> 2.5"' >> Gemfile
-          echo 'gem "jekyll-feed", "~> 0.12"' >> Gemfile
-          echo 'gem "jekyll-sitemap"' >> Gemfile
-          echo 'gem "jekyll-seo-tag"' >> Gemfile
-          bundle install
 
       - name: Export Marimo notebooks to WebAssembly
         run: |
