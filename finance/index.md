@@ -1,79 +1,44 @@
 ---
 layout: page
-title: Interactive Finance Tools
+title: Finance Tools
 permalink: /finance/
 ---
 
 # Interactive Finance Dashboard
 
-Welcome to my interactive S&P 500 analysis dashboard! This tool provides real-time market analysis with interactive visualizations that run entirely in your browser.
+A WebAssembly-powered financial analysis tool that runs entirely in your browser. Built with marimo for reactive data analysis and Altair for interactive visualizations.
 
-## 🔗 Launch Dashboard
+## 🚀 Launch Dashboard
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="finance_dashboard.html" class="btn btn-primary" style="padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
-    🚀 Open Interactive Dashboard
+  <a href="finance_dashboard_web.html" style="display: inline-block; padding: 12px 24px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    Launch Interactive Dashboard
   </a>
 </div>
 
 ## Features
 
-### 📊 Real-Time Stock Analysis
-- Enter any stock symbols (e.g., AAPL, GOOGL, MSFT, AMZN)
-- Choose from multiple time periods (1 month to 5 years)
-- View different chart types (line, area, candlestick)
+- **Interactive Charts** - Zoom, pan, and explore financial data
+- **Multi-Stock Analysis** - Compare performance across different securities  
+- **Performance Metrics** - Returns, volatility, and statistical analysis
+- **Market Overview** - S&P 500 index trends and indicators
+- **Browser-Native** - No plugins or external dependencies required
 
-### 📈 Performance Metrics  
-- Current stock prices
-- Total return calculations
-- Volatility analysis
-- Average daily trading volume
+## Technology
 
-### 🎮 Interactive Charts
-- Zoom and pan functionality
-- Hover for detailed data points
-- Multi-stock comparison
-- Responsive design for all devices
+- **[marimo](https://marimo.io/)** - Reactive Python notebooks
+- **WebAssembly** - High-performance browser execution
+- **Altair** - Interactive statistical visualizations
+- **Sample Data** - Demonstrates realistic financial analysis patterns
 
-### 🏢 Market Overview
-- Real-time S&P 500 index tracking
-- 30-day trend visualization
-- Market performance indicators
+## Quick Start
 
-## How It Works
-
-This dashboard is built with [marimo](https://marimo.io/), a reactive Python notebook framework that creates interactive web applications. The entire analysis engine runs in your browser using WebAssembly - no server required!
-
-**Data Source**: Yahoo Finance API via the `yfinance` Python library  
-**Visualization**: Altair/Vega-Lite for interactive charts  
-**Technology**: Python, WebAssembly, HTML5
-
-## Getting Started
-
-1. Click the "Open Interactive Dashboard" button above
-2. Wait for the app to load (first time may take a few seconds)
-3. Enter stock symbols in the text field (comma-separated)
-4. Select your preferred time period and chart type
-5. Explore the interactive visualizations!
-
-## Example Analysis
-
-Try these popular stock combinations:
-- **Tech Giants**: `AAPL,GOOGL,MSFT,AMZN`
-- **Electric Vehicles**: `TSLA,RIVN,LCID,F`
-- **Banking**: `JPM,BAC,WFC,C`
-- **Healthcare**: `JNJ,PFE,UNH,ABBV`
-
-## Technical Details
-
-The dashboard includes several Python modules:
-- **Data Fetching**: Real-time stock data via Yahoo Finance
-- **Analysis Engine**: Pandas and NumPy for calculations
-- **Visualization**: Altair for interactive charts
-- **UI Components**: marimo widgets for user interaction
-
-All code is open source and available on [GitHub](https://github.com/zhizhen-lianne-liu/zhizhen-lianne-liu.github.io).
+1. Click "Launch Interactive Dashboard" above
+2. Wait for WebAssembly to initialize (first load may take a moment)
+3. Enter stock symbols (e.g., AAPL, GOOGL, MSFT) 
+4. Select time periods and chart types
+5. Explore the interactive visualizations
 
 ---
 
-*Having trouble? The dashboard works best in modern browsers with JavaScript enabled. For the full experience, use Chrome, Firefox, Safari, or Edge.*
+*This dashboard showcases modern web technologies for financial analysis. View the source code and implementation details in my [blog post](/posts/interactive-finance-dashboard/).*
