@@ -1,0 +1,51 @@
+# Site settings
+title: Zhizhen Liu
+email: your-email@example.com
+description: >-
+  Personal blog and finance analysis tools. Interactive S&P 500 dashboard
+  powered by marimo with real-time market data visualization.
+
+baseurl: ""
+url: "https://zhizhen-lianne-liu.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - about.md
+  - projects.md
+  - finance/index.md
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude marimo files from Jekyll processing
+exclude:
+  - finance/*.py
+  - finance/baba-finance/*.py
+  - finance/baba-finance/*.ipynb
+  - finance/baba-finance/*.json
+  - finance/baba-finance/*.txt
+  - finance/baba-finance/*.csv
+  - "*.py"
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Marimo integration settings
+marimo:
+  enabled: true
+  wasm_path: "/assets/wasm/"
