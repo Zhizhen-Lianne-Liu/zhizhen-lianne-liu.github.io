@@ -41,7 +41,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install marimo[recommended] yfinance pandas numpy altair
+          pip install -r requirements.txt
 
       - name: Setup Pages
         id: pages
