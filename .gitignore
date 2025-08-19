@@ -1,0 +1,189 @@
+# Secrets and Credentials
+credentials.json
+token.json
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.local
+.env.production
+.env.staging
+config.json
+secrets.yaml
+secrets.yml
+
+# API Keys and Authentication
+*_api_key*
+*_secret*
+*_token*
+auth_config*
+oauth*
+
+# Email and SMTP Configuration
+email_config*
+smtp_config*
+mail_settings*
+
+# Google API Credentials
+service_account*.json
+client_secret*.json
+google_credentials*
+
+# Financial Data API Keys
+yahoo_finance_key*
+alpha_vantage_key*
+financial_api_key*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Ruby
+*.gem
+.bundle
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+
+# Node.js (in case you add any JS tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Local development
+.local/
+local_settings.py
+
+# Cache files
+*.cache
+.cache/
+.parcel-cache/
+
+# Database files (if any local testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large files that shouldn't be in git
+*.csv.large
+*.json.large
+data/large_datasets/
+*.xlsx
+*.xls
+
+# Personal notes and todos
+TODO.md
+NOTES.md
+personal_notes/
+scratch/
