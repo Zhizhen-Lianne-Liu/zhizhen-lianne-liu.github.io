@@ -140,9 +140,7 @@ def __(alt, chart_type, mo, selected_tickers, stock_data):
         
         try:
             # Create the chart based on selected style
-            base_chart = alt.Chart(data).add_selection(
-                alt.selection_interval(bind='scales')
-            )
+            base_chart = alt.Chart(data)
             
             if chart_style == "line":
                 chart = base_chart.mark_line(point=True, strokeWidth=2).encode(
@@ -165,7 +163,7 @@ def __(alt, chart_type, mo, selected_tickers, stock_data):
                 title=f"Stock Price Analysis - {', '.join(tickers)}"
             ).resolve_scale(
                 color='independent'
-            ).interactive()
+            )
             
             return mo.ui.altair_chart(chart)
             
@@ -298,7 +296,7 @@ def __(alt, mo, pd, np, datetime, timedelta):
             
             combined_chart = (area_chart + trend_chart).resolve_scale(
                 y='shared'
-            ).interactive()
+            )
             
             # Display metrics and chart
             direction = "📈" if change >= 0 else "📉"
