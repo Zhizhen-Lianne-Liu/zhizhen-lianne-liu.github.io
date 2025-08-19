@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.2"
-gem "minima", "~> 2.5"
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
+gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

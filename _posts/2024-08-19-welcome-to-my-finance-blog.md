@@ -1,9 +1,8 @@
 ---
-layout: post
-title: "Welcome to My Interactive Finance Blog"
+title: Welcome to My Interactive Finance Blog
 date: 2024-08-19 14:00:00 -0400
-categories: finance technology
-tags: [finance, dashboard, marimo, s&p500, data-visualization]
+categories: [Finance, Technology]
+tags: [finance, dashboard, marimo, s&p500, data-visualization, webassembly]
 ---
 
 # Welcome to My Interactive Finance Blog!

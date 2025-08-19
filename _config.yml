@@ -1,35 +1,147 @@
-# Site settings
-title: Zhizhen Liu
-email: your-email@example.com
-description: >-
-  Personal blog and finance analysis tools. Interactive S&P 500 dashboard
-  powered by marimo with real-time market data visualization.
+# The Site Configuration
 
-baseurl: ""
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# The language of the webpage, see <http://www.lingoes.net/en/translator/langcode.htm>
+lang: en
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: America/New_York
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+title: Zhizhen Liu
+tagline: Finance & Technology Blog
+description: >-
+  Personal blog featuring interactive finance analysis tools. 
+  Real-time S&P 500 dashboard powered by marimo with market data visualization.
+
+# The website URL
 url: "https://zhizhen-lianne-liu.github.io"
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+github:
+  username: Zhizhen-Lianne-Liu
 
-# Navigation
-header_pages:
-  - about.md
-  - projects.md
-  - finance/index.md
+social:
+  # Change to your full name.
+  name: Zhizhen Liu
+  email: your-email@example.com
+  links:
+    # The first element serves as the copyright owner's link
+    - https://github.com/Zhizhen-Lianne-Liu
+    # Uncomment below to add more social links
+    # - https://twitter.com/username
+    # - https://www.linkedin.com/in/username
 
-# Collections
+google_site_verification: # fill in to your verification string
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+google_analytics:
+  id: # fill in your Google Analytics ID
+
+# Prefer color scheme setting
+theme_mode: auto # [light|dark|auto]
+
+# The CDN endpoint for images
+img_cdn: ""
+
+# The avatar on sidebar, support local or CORS resources
+avatar: "/assets/img/avatar.jpg"
+
+# Boolean type, the global switch for Table of Contents in posts
+toc: true
+
+comments:
+  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The active options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development|production]
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+      # Exclude marimo assets from PWA cache
+      - /finance/assets/
+      - /finance/baba-finance/assets/
+
+paginate: 10
+
+# The base URL of your site
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 collections:
-  projects:
+  tabs:
     output: true
-    permalink: /:collection/:name/
+    sort_by: order
 
-# Exclude marimo files from Jekyll processing
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident in doing so.
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
 exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - "*.config.js"
+  - package*.json
+  # Exclude marimo files from Jekyll processing
   - finance/*.py
   - finance/baba-finance/*.py
   - finance/baba-finance/*.ipynb
@@ -37,15 +149,19 @@ exclude:
   - finance/baba-finance/*.txt
   - finance/baba-finance/*.csv
   - "*.py"
-  - node_modules/
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - vendor/
+  - requirements.txt
+  - scratch/
 
-# Marimo integration settings
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+# Marimo integration settings (custom)
 marimo:
   enabled: true
   wasm_path: "/assets/wasm/"
