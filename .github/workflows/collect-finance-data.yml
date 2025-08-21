@@ -1,0 +1,194 @@
+name: Collect Finance Data
+
+on:
+  schedule:
+    # Run daily at 6 PM EST (after market close)
+    - cron: '0 23 * * 1-5'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas numpy requests alpha-vantage
+
+      - name: Collect finance data with Alpha Vantage
+        env:
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+        run: |
+          python -c "
+          import pandas as pd
+          import numpy as np
+          import json
+          import os
+          import time
+          import requests
+          from datetime import datetime, timedelta
+          
+          # Create data directory if it doesn't exist
+          os.makedirs('finance/data', exist_ok=True)
+          
+          # Get API key from environment
+          api_key = os.environ.get('ALPHA_VANTAGE_API_KEY')
+          if not api_key:
+              print('❌ ALPHA_VANTAGE_API_KEY not found. Cannot collect data without API key.')
+              exit(1)
+          
+          # Core tickers for Alpha Vantage (25 calls/day limit)
+          tickers = ['AAPL', 'MSFT', 'GOOGL', 'SPY']
+          
+          def fetch_alpha_vantage_data(symbol, api_key):
+              '''Fetch real data from Alpha Vantage API - no fallbacks'''
+              try:
+                  # Alpha Vantage Daily Adjusted endpoint
+                  url = f'https://www.alphavantage.co/query'
+                  params = {
+                      'function': 'TIME_SERIES_DAILY_ADJUSTED',
+                      'symbol': symbol,
+                      'outputsize': 'compact',  # Last 100 days
+                      'apikey': api_key
+                  }
+                  
+                  print(f'Fetching {symbol} from Alpha Vantage...')
+                  response = requests.get(url, params=params, timeout=30)
+                  
+                  if response.status_code != 200:
+                      print(f'❌ HTTP {response.status_code} for {symbol}')
+                      return None
+                  
+                  data = response.json()
+                  
+                  # Check for API errors
+                  if 'Error Message' in data:
+                      print(f'❌ API Error for {symbol}: {data[\"Error Message\"]}')
+                      return None
+                  
+                  if 'Note' in data:
+                      print(f'❌ Rate limit hit: {data[\"Note\"]}')
+                      return None
+                  
+                  # Extract time series data
+                  time_series = data.get('Time Series (Daily)', {})
+                  if not time_series:
+                      print(f'❌ No time series data for {symbol}')
+                      return None
+                  
+                  # Convert to our format
+                  stock_data = []
+                  for date_str, values in time_series.items():
+                      stock_data.append({
+                          'Date': date_str,
+                          'Ticker': symbol,
+                          'Open': round(float(values['1. open']), 2),
+                          'High': round(float(values['2. high']), 2),
+                          'Low': round(float(values['3. low']), 2),
+                          'Close': round(float(values['4. close']), 2),
+                          'Volume': int(values['6. volume']),
+                          'Price': round(float(values['4. close']), 2)
+                      })
+                  
+                  print(f'✅ Successfully fetched {len(stock_data)} days for {symbol}')
+                  return stock_data
+                  
+              except Exception as e:
+                  print(f'❌ Error fetching {symbol}: {str(e)}')
+                  return None
+          
+          # Collect stock data
+          stock_data = []
+          successful_collections = 0
+          
+          for ticker in tickers:
+              ticker_data = fetch_alpha_vantage_data(ticker, api_key)
+              
+              if ticker_data:
+                  stock_data.extend(ticker_data)
+                  successful_collections += 1
+                  # Add delay between API calls to respect rate limits
+                  time.sleep(12)  # Alpha Vantage allows 5 calls per minute = 12 second intervals
+              else:
+                  print(f'❌ Failed to fetch real data for {ticker}')
+          
+          # Only proceed if we got some real data
+          if successful_collections == 0:
+              print('❌ No real data collected. Exiting without creating files.')
+              exit(1)
+          
+          print(f'Collected real data for {successful_collections}/{len(tickers)} tickers')
+          
+          # Save stock data
+          with open('finance/data/stock_data.json', 'w') as f:
+              json.dump(stock_data, f, indent=2)
+          
+          # Market overview using real SPY data (already collected above)
+          spy_data = [item for item in stock_data if item['Ticker'] == 'SPY']
+          
+          if spy_data:
+              # Sort by date and take last 30 days
+              spy_data.sort(key=lambda x: x['Date'])
+              recent_spy = spy_data[-30:] if len(spy_data) >= 30 else spy_data
+              
+              market_data = [{'Date': item['Date'], 'Price': item['Price'], 'Volume': item['Volume']} for item in recent_spy]
+              
+              current_price = market_data[-1]['Price']
+              prev_price = market_data[0]['Price']
+              change = current_price - prev_price
+              change_pct = (change / prev_price) * 100
+              
+              market_overview = {
+                  'current_price': current_price,
+                  'change': round(change, 2),
+                  'change_pct': round(change_pct, 2),
+                  'data': market_data
+              }
+              print('✅ Real market overview data created from SPY')
+          else:
+              print('❌ No SPY data available for market overview')
+              exit(1)
+          
+          with open('finance/data/market_overview.json', 'w') as f:
+              json.dump(market_overview, f, indent=2)
+          
+          # Save timestamp
+          timestamp = {
+              'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC'),
+              'market_date': datetime.now().strftime('%Y-%m-%d'),
+              'real_data_ratio': f'{successful_collections}/{len(tickers)}'
+          }
+          
+          with open('finance/data/last_updated.json', 'w') as f:
+              json.dump(timestamp, f, indent=2)
+          
+          print('Data collection completed successfully')
+          print(f'Real data: {successful_collections} tickers, Fallback: {len(tickers) - successful_collections} tickers')
+          "
+
+      - name: Commit and push data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add the data files
+          git add finance/data/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update finance data - $(date +%Y-%m-%d)"
+            git push
+          fi

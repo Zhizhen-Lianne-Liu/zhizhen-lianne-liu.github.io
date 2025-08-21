@@ -14,3 +14,6 @@ plotly>=5.15.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
+
+# For data processing in GitHub Actions
+python-dateutil>=2.8.0

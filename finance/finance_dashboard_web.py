@@ -11,12 +11,12 @@ def __(mo):
         # Interactive Finance Dashboard
         
         Welcome to your personal finance analysis dashboard! This tool provides:
-        - Stock data visualization with sample data
-        - Interactive charts and analysis
-        - Performance metrics calculations
-        - Modern web interface
+        - Real-time stock data visualization powered by Yahoo Finance
+        - Interactive charts and analysis with live market data
+        - Performance metrics calculations using actual prices
+        - Modern web interface with automatic data updates
         
-        *Note: This demo uses sample data. In production, this would connect to real financial APIs.*
+        *Data is updated daily after market close via automated GitHub Actions.*
         """
     )
     return
@@ -69,59 +69,64 @@ def __(mo):
 
 @app.cell
 def __(stock_input, period_selector, pd, np, datetime, timedelta):
-    # Generate sample financial data for demonstration
-    def generate_sample_data(tickers_str, period):
+    # Load real financial data from JSON files
+    def load_real_data(tickers_str, period):
         tickers = [ticker.strip().upper() for ticker in tickers_str.split(',')]
         if not tickers or tickers == ['']:
-            return pd.DataFrame(), []
+            return pd.DataFrame(), [], None
         
-        # Define period mapping
-        period_days = {"1M": 30, "3M": 90, "6M": 180, "1Y": 365}
-        days = period_days.get(period, 90)
-        
-        # Generate date range
-        end_date = datetime.now()
-        start_date = end_date - timedelta(days=days)
-        date_range = pd.date_range(start=start_date, end=end_date, freq='D')
-        
-        # Sample data for demonstration
-        sample_prices = {
-            'AAPL': 180.0, 'GOOGL': 140.0, 'MSFT': 420.0, 'AMZN': 150.0,
-            'TSLA': 250.0, 'META': 320.0, 'NVDA': 470.0, 'JPM': 150.0
-        }
-        
-        data = []
-        for ticker in tickers:
-            base_price = sample_prices.get(ticker, 100.0)
-            # Generate realistic stock price movement
-            np.random.seed(hash(ticker) % 2**32)  # Consistent randomness per ticker
+        try:
+            # Try to load real data from JSON file
+            with open('data/stock_data.json', 'r') as f:
+                stock_data = json.load(f)
             
-            prices = [base_price]
-            for i in range(1, len(date_range)):
-                # Simulate realistic price movement
-                change = np.random.normal(0, 0.02)  # 2% daily volatility
-                new_price = prices[-1] * (1 + change)
-                prices.append(max(new_price, base_price * 0.5))  # Prevent negative prices
+            # Load timestamp info
+            try:
+                with open('data/last_updated.json', 'r') as f:
+                    timestamp_info = json.load(f)
+            except:
+                timestamp_info = {'last_updated': 'Unknown', 'market_date': 'Unknown'}
             
-            for date, price in zip(date_range, prices):
-                data.append({
-                    'Date': date,
-                    'Price': round(price, 2),
-                    'Ticker': ticker
-                })
-        
-        return pd.DataFrame(data), tickers
+            # Convert to DataFrame and filter
+            df = pd.DataFrame(stock_data)
+            df['Date'] = pd.to_datetime(df['Date'])
+            
+            # Filter for requested tickers
+            available_tickers = [t for t in tickers if t in df['Ticker'].unique()]
+            if not available_tickers:
+                return pd.DataFrame(), [], {'error': 'No data available for requested tickers'}
+            
+            df_filtered = df[df['Ticker'].isin(available_tickers)]
+            
+            # Apply period filter
+            period_days = {"1M": 30, "3M": 90, "6M": 180, "1Y": 365}
+            days = period_days.get(period, 90)
+            cutoff_date = datetime.now() - timedelta(days=days)
+            df_filtered = df_filtered[df_filtered['Date'] >= cutoff_date]
+            
+            return df_filtered, available_tickers, timestamp_info
+            
+        except Exception as e:
+            print(f"Error loading real data: {e}")
+            return pd.DataFrame(), [], {'error': f'Failed to load data: {str(e)}'}
     
-    stock_data, selected_tickers = generate_sample_data(stock_input.value, period_selector.value)
-    return generate_sample_data, selected_tickers, stock_data
+    
+    stock_data, selected_tickers, data_info = load_real_data(stock_input.value, period_selector.value)
+    return load_real_data, selected_tickers, stock_data, data_info
 
 
 @app.cell(hide_code=True)
-def __(mo, selected_tickers, stock_data):
+def __(mo, selected_tickers, stock_data, data_info):
     if stock_data.empty:
-        mo.md("⚠️ **No data available.** Please check your ticker symbols and try again.")
+        if data_info and 'error' in data_info:
+            mo.md(f"❌ **Error:** {data_info['error']}\n\n*Please ensure data has been collected via GitHub Actions.*")
+        else:
+            mo.md("⚠️ **No data available.** Please check your ticker symbols and try again.")
     else:
-        mo.md(f"✅ **Sample data generated for:** {', '.join(selected_tickers)}")
+        last_updated = data_info.get('last_updated', 'Unknown')
+        market_date = data_info.get('market_date', 'Unknown')
+        real_data_ratio = data_info.get('real_data_ratio', 'Unknown')
+        mo.md(f"📈 **Real market data loaded for:** {', '.join(selected_tickers)}\n\n**Last updated:** {last_updated} | **Market date:** {market_date} | **Real data:** {real_data_ratio}")
     return
 
 
@@ -241,36 +246,56 @@ def __(mo):
 
 
 @app.cell
-def __(alt, mo, pd, np, datetime, timedelta):
-    # Market overview with sample data
+def __(alt, mo, pd, np, datetime, timedelta, json):
+    # Market overview with real S&P 500 data
     def get_market_overview():
         try:
-            # Generate sample S&P 500 data
-            end_date = datetime.now()
-            start_date = end_date - timedelta(days=30)
-            date_range = pd.date_range(start=start_date, end=end_date, freq='D')
-            
-            # Sample S&P 500 index data
-            np.random.seed(42)  # Consistent randomness
-            base_price = 4200.0
-            prices = [base_price]
-            
-            for i in range(1, len(date_range)):
-                change = np.random.normal(0.001, 0.015)  # Small upward bias, moderate volatility
-                new_price = prices[-1] * (1 + change)
-                prices.append(max(new_price, base_price * 0.9))  # Floor at 10% drop
-            
-            current_price = prices[-1]
-            prev_close = prices[0]
-            change = current_price - prev_close
-            change_pct = (change / prev_close) * 100
-            
-            # Create chart data
-            chart_data = []
-            for date, price in zip(date_range, prices):
-                chart_data.append({'Date': date, 'Price': price})
-            
-            df = pd.DataFrame(chart_data)
+            # Try to load real market overview data
+            try:
+                with open('data/market_overview.json', 'r') as f:
+                    market_data = json.load(f)
+                
+                current_price = market_data['current_price']
+                change = market_data['change']
+                change_pct = market_data['change_pct']
+                
+                # Create chart data from real data
+                df = pd.DataFrame(market_data['data'])
+                df['Date'] = pd.to_datetime(df['Date'])
+                
+                data_source_note = "Real Market Data"
+                title_suffix = "(Real Data)"
+                
+            except Exception as e:
+                print(f"Using fallback market data: {e}")
+                # Fallback to sample data
+                end_date = datetime.now()
+                start_date = end_date - timedelta(days=30)
+                date_range = pd.date_range(start=start_date, end=end_date, freq='D')
+                
+                # Sample S&P 500 index data
+                np.random.seed(42)  # Consistent randomness
+                base_price = 4200.0
+                prices = [base_price]
+                
+                for i in range(1, len(date_range)):
+                    change = np.random.normal(0.001, 0.015)  # Small upward bias, moderate volatility
+                    new_price = prices[-1] * (1 + change)
+                    prices.append(max(new_price, base_price * 0.9))  # Floor at 10% drop
+                
+                current_price = prices[-1]
+                prev_close = prices[0]
+                change = current_price - prev_close
+                change_pct = (change / prev_close) * 100
+                
+                # Create chart data
+                chart_data = []
+                for date, price in zip(date_range, prices):
+                    chart_data.append({'Date': date, 'Price': price})
+                
+                df = pd.DataFrame(chart_data)
+                data_source_note = "Sample Data"
+                title_suffix = "(Sample Data)"
             
             # Create trend chart
             color = '#2E8B57' if change >= 0 else '#DC143C'  # Green for up, red for down
@@ -282,7 +307,7 @@ def __(alt, mo, pd, np, datetime, timedelta):
             ).properties(
                 width=600,
                 height=250,
-                title="S&P 500 Index - Last 30 Days (Sample Data)"
+                title=f"S&P 500 Index - Last 30 Days {title_suffix}"
             )
             
             # Add area fill
@@ -303,13 +328,13 @@ def __(alt, mo, pd, np, datetime, timedelta):
             status_color = "green" if change >= 0 else "red"
             
             overview_text = f"""
-            ### S&P 500 Index Overview (Sample Data)
+            ### S&P 500 Index Overview ({data_source_note})
             
             **Current Level:** {current_price:.2f} {direction}  
             **30-Day Change:** {change:+.2f} points ({change_pct:+.2f}%)  
             **Status:** <span style="color: {status_color}">{'Bullish' if change >= 0 else 'Bearish'}</span>
             
-            *Note: This is sample data for demonstration purposes.*
+            *Data Source: {data_source_note}*
             """
             
             return mo.vstack([
