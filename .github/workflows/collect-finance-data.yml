@@ -72,6 +72,9 @@ jobs:
                   
                   data = response.json()
                   
+                  # Debug: Print actual response keys
+                  print(f'🔍 Response keys for {symbol}: {list(data.keys())}')
+                  
                   # Check for API errors
                   if 'Error Message' in data:
                       print(f'❌ API Error for {symbol}: {data[\"Error Message\"]}')
@@ -81,10 +84,15 @@ jobs:
                       print(f'❌ Rate limit hit: {data[\"Note\"]}')
                       return None
                   
+                  if 'Information' in data:
+                      print(f'❌ API Info for {symbol}: {data[\"Information\"]}')
+                      return None
+                  
                   # Extract time series data
                   time_series = data.get('Time Series (Daily)', {})
                   if not time_series:
                       print(f'❌ No time series data for {symbol}')
+                      print(f'🔍 Full response: {data}')
                       return None
                   
                   # Convert to our format
