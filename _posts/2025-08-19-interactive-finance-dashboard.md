@@ -5,25 +5,20 @@ categories: [Finance, Technology]
 tags: [finance, dashboard, marimo, webassembly, data-visualization, python]
 ---
 
-I built an interactive finance dashboard that runs entirely in your browser using WebAssembly. It demonstrates real-time data analysis capabilities without requiring any server infrastructure.
+A little personal experiment to explore financial data visualization using modern web technologies.
 
-## 🚀 Try the Dashboard
+## Why These Tools?
 
-**[Launch Interactive Dashboard](/finance/finance_dashboard_web.html)**
+**marimo over Jupyter**: Reactive updates mean changing one input automatically recalculates everything downstream, unlike Jupyter's manual cell execution.
 
-## Features
+**Alpha Vantage over Yahoo Finance**: Yahoo's API became unreliable with frequent rate limiting. Alpha Vantage offers 25 free daily calls with consistent data format.
 
-- **Interactive Stock Analysis** - Enter stock symbols and visualize price movements
-- **Performance Metrics** - Calculate returns, volatility, and trading ranges
-- **Market Overview** - S&P 500 index analysis with trend visualization
-- **Reactive Interface** - All components update automatically based on your selections
+**WebAssembly over server-side**: Runs entirely in the browser without backend infrastructure. Alternative would be Flask/FastAPI + database, but that adds deployment complexity.
 
-## Tech Stack
+**GitHub Actions for data**: Scheduled collection runs daily after market close. Could use client-side API calls, but that would hit rate limits quickly with multiple users.
 
-Built with [marimo](https://marimo.io/) (reactive Python notebooks), Altair for visualizations, and WebAssembly for browser execution. The entire analysis engine runs client-side - no external APIs or servers required.
+## Architecture
 
-**Demo Note**: Uses simulated financial data to demonstrate the analytical capabilities and interactive features.
+Python analysis → WebAssembly → Browser execution. Data pipeline collects real market data daily and serves it as static JSON files.
 
----
-
-*Check out the [full finance tools page](/finance/) for more details about the implementation.*
+**→ [View the full finance tools page](/finance/) for usage instructions and to launch the dashboard**
