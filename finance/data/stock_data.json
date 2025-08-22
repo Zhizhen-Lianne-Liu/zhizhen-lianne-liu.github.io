@@ -1,0 +1,4002 @@
+[
+  {
+    "Date": "2025-08-21",
+    "Ticker": "AAPL",
+    "Open": 226.27,
+    "High": 226.52,
+    "Low": 223.78,
+    "Close": 224.9,
+    "Volume": 30621249,
+    "Price": 224.9
+  },
+  {
+    "Date": "2025-08-20",
+    "Ticker": "AAPL",
+    "Open": 229.98,
+    "High": 230.47,
+    "Low": 225.77,
+    "Close": 226.01,
+    "Volume": 42263865,
+    "Price": 226.01
+  },
+  {
+    "Date": "2025-08-19",
+    "Ticker": "AAPL",
+    "Open": 231.28,
+    "High": 232.87,
+    "Low": 229.35,
+    "Close": 230.56,
+    "Volume": 39402564,
+    "Price": 230.56
+  },
+  {
+    "Date": "2025-08-18",
+    "Ticker": "AAPL",
+    "Open": 231.7,
+    "High": 233.12,
+    "Low": 230.11,
+    "Close": 230.89,
+    "Volume": 37476188,
+    "Price": 230.89
+  },
+  {
+    "Date": "2025-08-15",
+    "Ticker": "AAPL",
+    "Open": 234.0,
+    "High": 234.28,
+    "Low": 229.34,
+    "Close": 231.59,
+    "Volume": 56038657,
+    "Price": 231.59
+  },
+  {
+    "Date": "2025-08-14",
+    "Ticker": "AAPL",
+    "Open": 234.06,
+    "High": 235.12,
+    "Low": 230.85,
+    "Close": 232.78,
+    "Volume": 51916275,
+    "Price": 232.78
+  },
+  {
+    "Date": "2025-08-13",
+    "Ticker": "AAPL",
+    "Open": 231.07,
+    "High": 235.0,
+    "Low": 230.43,
+    "Close": 233.33,
+    "Volume": 69878546,
+    "Price": 233.33
+  },
+  {
+    "Date": "2025-08-12",
+    "Ticker": "AAPL",
+    "Open": 228.0,
+    "High": 230.8,
+    "Low": 227.07,
+    "Close": 229.65,
+    "Volume": 55672301,
+    "Price": 229.65
+  },
+  {
+    "Date": "2025-08-11",
+    "Ticker": "AAPL",
+    "Open": 227.92,
+    "High": 229.56,
+    "Low": 224.76,
+    "Close": 227.18,
+    "Volume": 61806132,
+    "Price": 227.18
+  },
+  {
+    "Date": "2025-08-08",
+    "Ticker": "AAPL",
+    "Open": 220.83,
+    "High": 231.0,
+    "Low": 219.25,
+    "Close": 229.35,
+    "Volume": 113853967,
+    "Price": 229.35
+  },
+  {
+    "Date": "2025-08-07",
+    "Ticker": "AAPL",
+    "Open": 218.88,
+    "High": 220.85,
+    "Low": 216.58,
+    "Close": 220.03,
+    "Volume": 90224834,
+    "Price": 220.03
+  },
+  {
+    "Date": "2025-08-06",
+    "Ticker": "AAPL",
+    "Open": 205.63,
+    "High": 215.38,
+    "Low": 205.59,
+    "Close": 213.25,
+    "Volume": 108483103,
+    "Price": 213.25
+  },
+  {
+    "Date": "2025-08-05",
+    "Ticker": "AAPL",
+    "Open": 203.4,
+    "High": 205.34,
+    "Low": 202.16,
+    "Close": 202.92,
+    "Volume": 44155079,
+    "Price": 202.92
+  },
+  {
+    "Date": "2025-08-04",
+    "Ticker": "AAPL",
+    "Open": 204.5,
+    "High": 207.88,
+    "Low": 201.68,
+    "Close": 203.35,
+    "Volume": 75109298,
+    "Price": 203.35
+  },
+  {
+    "Date": "2025-08-01",
+    "Ticker": "AAPL",
+    "Open": 210.87,
+    "High": 213.58,
+    "Low": 201.5,
+    "Close": 202.38,
+    "Volume": 104434473,
+    "Price": 202.38
+  },
+  {
+    "Date": "2025-07-31",
+    "Ticker": "AAPL",
+    "Open": 208.49,
+    "High": 209.84,
+    "Low": 207.16,
+    "Close": 207.57,
+    "Volume": 80698431,
+    "Price": 207.57
+  },
+  {
+    "Date": "2025-07-30",
+    "Ticker": "AAPL",
+    "Open": 211.9,
+    "High": 212.39,
+    "Low": 207.72,
+    "Close": 209.05,
+    "Volume": 45512514,
+    "Price": 209.05
+  },
+  {
+    "Date": "2025-07-29",
+    "Ticker": "AAPL",
+    "Open": 214.18,
+    "High": 214.81,
+    "Low": 210.82,
+    "Close": 211.27,
+    "Volume": 51411723,
+    "Price": 211.27
+  },
+  {
+    "Date": "2025-07-28",
+    "Ticker": "AAPL",
+    "Open": 214.03,
+    "High": 214.84,
+    "Low": 213.06,
+    "Close": 214.05,
+    "Volume": 37858017,
+    "Price": 214.05
+  },
+  {
+    "Date": "2025-07-25",
+    "Ticker": "AAPL",
+    "Open": 214.7,
+    "High": 215.24,
+    "Low": 213.4,
+    "Close": 213.88,
+    "Volume": 40268781,
+    "Price": 213.88
+  },
+  {
+    "Date": "2025-07-24",
+    "Ticker": "AAPL",
+    "Open": 213.9,
+    "High": 215.69,
+    "Low": 213.53,
+    "Close": 213.76,
+    "Volume": 46022620,
+    "Price": 213.76
+  },
+  {
+    "Date": "2025-07-23",
+    "Ticker": "AAPL",
+    "Open": 215.0,
+    "High": 215.15,
+    "Low": 212.41,
+    "Close": 214.15,
+    "Volume": 46989301,
+    "Price": 214.15
+  },
+  {
+    "Date": "2025-07-22",
+    "Ticker": "AAPL",
+    "Open": 213.14,
+    "High": 214.95,
+    "Low": 212.23,
+    "Close": 214.4,
+    "Volume": 46404072,
+    "Price": 214.4
+  },
+  {
+    "Date": "2025-07-21",
+    "Ticker": "AAPL",
+    "Open": 212.1,
+    "High": 215.78,
+    "Low": 211.63,
+    "Close": 212.48,
+    "Volume": 51377434,
+    "Price": 212.48
+  },
+  {
+    "Date": "2025-07-18",
+    "Ticker": "AAPL",
+    "Open": 210.87,
+    "High": 211.79,
+    "Low": 209.7,
+    "Close": 211.18,
+    "Volume": 48974591,
+    "Price": 211.18
+  },
+  {
+    "Date": "2025-07-17",
+    "Ticker": "AAPL",
+    "Open": 210.57,
+    "High": 211.8,
+    "Low": 209.59,
+    "Close": 210.02,
+    "Volume": 48068141,
+    "Price": 210.02
+  },
+  {
+    "Date": "2025-07-16",
+    "Ticker": "AAPL",
+    "Open": 210.29,
+    "High": 212.4,
+    "Low": 208.64,
+    "Close": 210.16,
+    "Volume": 47490532,
+    "Price": 210.16
+  },
+  {
+    "Date": "2025-07-15",
+    "Ticker": "AAPL",
+    "Open": 209.22,
+    "High": 211.89,
+    "Low": 208.92,
+    "Close": 209.11,
+    "Volume": 42296339,
+    "Price": 209.11
+  },
+  {
+    "Date": "2025-07-14",
+    "Ticker": "AAPL",
+    "Open": 209.93,
+    "High": 210.91,
+    "Low": 207.54,
+    "Close": 208.62,
+    "Volume": 38840111,
+    "Price": 208.62
+  },
+  {
+    "Date": "2025-07-11",
+    "Ticker": "AAPL",
+    "Open": 210.56,
+    "High": 212.13,
+    "Low": 209.86,
+    "Close": 211.16,
+    "Volume": 39765812,
+    "Price": 211.16
+  },
+  {
+    "Date": "2025-07-10",
+    "Ticker": "AAPL",
+    "Open": 210.5,
+    "High": 213.48,
+    "Low": 210.03,
+    "Close": 212.41,
+    "Volume": 44443635,
+    "Price": 212.41
+  },
+  {
+    "Date": "2025-07-09",
+    "Ticker": "AAPL",
+    "Open": 209.53,
+    "High": 211.33,
+    "Low": 207.22,
+    "Close": 211.14,
+    "Volume": 48749367,
+    "Price": 211.14
+  },
+  {
+    "Date": "2025-07-08",
+    "Ticker": "AAPL",
+    "Open": 210.1,
+    "High": 211.43,
+    "Low": 208.45,
+    "Close": 210.01,
+    "Volume": 42848928,
+    "Price": 210.01
+  },
+  {
+    "Date": "2025-07-07",
+    "Ticker": "AAPL",
+    "Open": 212.68,
+    "High": 216.23,
+    "Low": 208.8,
+    "Close": 209.95,
+    "Volume": 50228984,
+    "Price": 209.95
+  },
+  {
+    "Date": "2025-07-03",
+    "Ticker": "AAPL",
+    "Open": 212.15,
+    "High": 214.65,
+    "Low": 211.81,
+    "Close": 213.55,
+    "Volume": 34955836,
+    "Price": 213.55
+  },
+  {
+    "Date": "2025-07-02",
+    "Ticker": "AAPL",
+    "Open": 208.91,
+    "High": 213.34,
+    "Low": 208.14,
+    "Close": 212.44,
+    "Volume": 67941811,
+    "Price": 212.44
+  },
+  {
+    "Date": "2025-07-01",
+    "Ticker": "AAPL",
+    "Open": 206.66,
+    "High": 210.19,
+    "Low": 206.14,
+    "Close": 207.82,
+    "Volume": 78788867,
+    "Price": 207.82
+  },
+  {
+    "Date": "2025-06-30",
+    "Ticker": "AAPL",
+    "Open": 202.01,
+    "High": 207.39,
+    "Low": 199.26,
+    "Close": 205.17,
+    "Volume": 91912816,
+    "Price": 205.17
+  },
+  {
+    "Date": "2025-06-27",
+    "Ticker": "AAPL",
+    "Open": 201.89,
+    "High": 203.22,
+    "Low": 200.0,
+    "Close": 201.08,
+    "Volume": 73188571,
+    "Price": 201.08
+  },
+  {
+    "Date": "2025-06-26",
+    "Ticker": "AAPL",
+    "Open": 201.43,
+    "High": 202.64,
+    "Low": 199.46,
+    "Close": 201.0,
+    "Volume": 50799121,
+    "Price": 201.0
+  },
+  {
+    "Date": "2025-06-25",
+    "Ticker": "AAPL",
+    "Open": 201.45,
+    "High": 203.67,
+    "Low": 200.62,
+    "Close": 201.56,
+    "Volume": 39525730,
+    "Price": 201.56
+  },
+  {
+    "Date": "2025-06-24",
+    "Ticker": "AAPL",
+    "Open": 202.59,
+    "High": 203.44,
+    "Low": 200.2,
+    "Close": 200.3,
+    "Volume": 54064033,
+    "Price": 200.3
+  },
+  {
+    "Date": "2025-06-23",
+    "Ticker": "AAPL",
+    "Open": 201.62,
+    "High": 202.3,
+    "Low": 198.96,
+    "Close": 201.5,
+    "Volume": 55814272,
+    "Price": 201.5
+  },
+  {
+    "Date": "2025-06-20",
+    "Ticker": "AAPL",
+    "Open": 198.24,
+    "High": 201.7,
+    "Low": 196.85,
+    "Close": 201.0,
+    "Volume": 96813542,
+    "Price": 201.0
+  },
+  {
+    "Date": "2025-06-18",
+    "Ticker": "AAPL",
+    "Open": 195.94,
+    "High": 197.57,
+    "Low": 195.07,
+    "Close": 196.58,
+    "Volume": 45394689,
+    "Price": 196.58
+  },
+  {
+    "Date": "2025-06-17",
+    "Ticker": "AAPL",
+    "Open": 197.2,
+    "High": 198.39,
+    "Low": 195.21,
+    "Close": 195.64,
+    "Volume": 38856152,
+    "Price": 195.64
+  },
+  {
+    "Date": "2025-06-16",
+    "Ticker": "AAPL",
+    "Open": 197.3,
+    "High": 198.69,
+    "Low": 196.56,
+    "Close": 198.42,
+    "Volume": 43020691,
+    "Price": 198.42
+  },
+  {
+    "Date": "2025-06-13",
+    "Ticker": "AAPL",
+    "Open": 199.73,
+    "High": 200.37,
+    "Low": 195.7,
+    "Close": 196.45,
+    "Volume": 51447349,
+    "Price": 196.45
+  },
+  {
+    "Date": "2025-06-12",
+    "Ticker": "AAPL",
+    "Open": 199.08,
+    "High": 199.68,
+    "Low": 197.36,
+    "Close": 199.2,
+    "Volume": 43904635,
+    "Price": 199.2
+  },
+  {
+    "Date": "2025-06-11",
+    "Ticker": "AAPL",
+    "Open": 203.5,
+    "High": 204.5,
+    "Low": 198.41,
+    "Close": 198.78,
+    "Volume": 60989857,
+    "Price": 198.78
+  },
+  {
+    "Date": "2025-06-10",
+    "Ticker": "AAPL",
+    "Open": 200.6,
+    "High": 204.35,
+    "Low": 200.57,
+    "Close": 202.67,
+    "Volume": 54672608,
+    "Price": 202.67
+  },
+  {
+    "Date": "2025-06-09",
+    "Ticker": "AAPL",
+    "Open": 204.39,
+    "High": 206.0,
+    "Low": 200.02,
+    "Close": 201.45,
+    "Volume": 72862557,
+    "Price": 201.45
+  },
+  {
+    "Date": "2025-06-06",
+    "Ticker": "AAPL",
+    "Open": 203.0,
+    "High": 205.7,
+    "Low": 202.05,
+    "Close": 203.92,
+    "Volume": 46607693,
+    "Price": 203.92
+  },
+  {
+    "Date": "2025-06-05",
+    "Ticker": "AAPL",
+    "Open": 203.5,
+    "High": 204.75,
+    "Low": 200.15,
+    "Close": 200.63,
+    "Volume": 55221235,
+    "Price": 200.63
+  },
+  {
+    "Date": "2025-06-04",
+    "Ticker": "AAPL",
+    "Open": 202.91,
+    "High": 206.24,
+    "Low": 202.1,
+    "Close": 202.82,
+    "Volume": 43603985,
+    "Price": 202.82
+  },
+  {
+    "Date": "2025-06-03",
+    "Ticker": "AAPL",
+    "Open": 201.35,
+    "High": 203.77,
+    "Low": 200.96,
+    "Close": 203.27,
+    "Volume": 46381567,
+    "Price": 203.27
+  },
+  {
+    "Date": "2025-06-02",
+    "Ticker": "AAPL",
+    "Open": 200.28,
+    "High": 202.13,
+    "Low": 200.12,
+    "Close": 201.7,
+    "Volume": 35423294,
+    "Price": 201.7
+  },
+  {
+    "Date": "2025-05-30",
+    "Ticker": "AAPL",
+    "Open": 199.37,
+    "High": 201.96,
+    "Low": 196.78,
+    "Close": 200.85,
+    "Volume": 70819942,
+    "Price": 200.85
+  },
+  {
+    "Date": "2025-05-29",
+    "Ticker": "AAPL",
+    "Open": 203.57,
+    "High": 203.81,
+    "Low": 198.51,
+    "Close": 199.95,
+    "Volume": 51477938,
+    "Price": 199.95
+  },
+  {
+    "Date": "2025-05-28",
+    "Ticker": "AAPL",
+    "Open": 200.59,
+    "High": 202.73,
+    "Low": 199.9,
+    "Close": 200.42,
+    "Volume": 45339678,
+    "Price": 200.42
+  },
+  {
+    "Date": "2025-05-27",
+    "Ticker": "AAPL",
+    "Open": 198.3,
+    "High": 200.74,
+    "Low": 197.43,
+    "Close": 200.21,
+    "Volume": 56288475,
+    "Price": 200.21
+  },
+  {
+    "Date": "2025-05-23",
+    "Ticker": "AAPL",
+    "Open": 193.66,
+    "High": 197.7,
+    "Low": 193.46,
+    "Close": 195.27,
+    "Volume": 78432918,
+    "Price": 195.27
+  },
+  {
+    "Date": "2025-05-22",
+    "Ticker": "AAPL",
+    "Open": 200.71,
+    "High": 202.75,
+    "Low": 199.7,
+    "Close": 201.36,
+    "Volume": 46742407,
+    "Price": 201.36
+  },
+  {
+    "Date": "2025-05-21",
+    "Ticker": "AAPL",
+    "Open": 205.17,
+    "High": 207.04,
+    "Low": 200.71,
+    "Close": 202.09,
+    "Volume": 59211774,
+    "Price": 202.09
+  },
+  {
+    "Date": "2025-05-20",
+    "Ticker": "AAPL",
+    "Open": 207.67,
+    "High": 208.47,
+    "Low": 205.03,
+    "Close": 206.86,
+    "Volume": 42496635,
+    "Price": 206.86
+  },
+  {
+    "Date": "2025-05-19",
+    "Ticker": "AAPL",
+    "Open": 207.91,
+    "High": 209.48,
+    "Low": 204.26,
+    "Close": 208.78,
+    "Volume": 46140527,
+    "Price": 208.78
+  },
+  {
+    "Date": "2025-05-16",
+    "Ticker": "AAPL",
+    "Open": 212.36,
+    "High": 212.57,
+    "Low": 209.77,
+    "Close": 211.26,
+    "Volume": 54737850,
+    "Price": 211.26
+  },
+  {
+    "Date": "2025-05-15",
+    "Ticker": "AAPL",
+    "Open": 210.95,
+    "High": 212.96,
+    "Low": 209.54,
+    "Close": 211.45,
+    "Volume": 45029473,
+    "Price": 211.45
+  },
+  {
+    "Date": "2025-05-14",
+    "Ticker": "AAPL",
+    "Open": 212.43,
+    "High": 213.94,
+    "Low": 210.58,
+    "Close": 212.33,
+    "Volume": 49325825,
+    "Price": 212.33
+  },
+  {
+    "Date": "2025-05-13",
+    "Ticker": "AAPL",
+    "Open": 210.43,
+    "High": 213.4,
+    "Low": 209.0,
+    "Close": 212.93,
+    "Volume": 51909332,
+    "Price": 212.93
+  },
+  {
+    "Date": "2025-05-12",
+    "Ticker": "AAPL",
+    "Open": 210.97,
+    "High": 211.27,
+    "Low": 206.75,
+    "Close": 210.79,
+    "Volume": 63775814,
+    "Price": 210.79
+  },
+  {
+    "Date": "2025-05-09",
+    "Ticker": "AAPL",
+    "Open": 199.0,
+    "High": 200.54,
+    "Low": 197.53,
+    "Close": 198.53,
+    "Volume": 36453923,
+    "Price": 198.53
+  },
+  {
+    "Date": "2025-05-08",
+    "Ticker": "AAPL",
+    "Open": 197.72,
+    "High": 200.05,
+    "Low": 194.68,
+    "Close": 197.49,
+    "Volume": 50478872,
+    "Price": 197.49
+  },
+  {
+    "Date": "2025-05-07",
+    "Ticker": "AAPL",
+    "Open": 199.17,
+    "High": 199.44,
+    "Low": 193.25,
+    "Close": 196.25,
+    "Volume": 68616943,
+    "Price": 196.25
+  },
+  {
+    "Date": "2025-05-06",
+    "Ticker": "AAPL",
+    "Open": 198.21,
+    "High": 200.65,
+    "Low": 197.02,
+    "Close": 198.51,
+    "Volume": 51216482,
+    "Price": 198.51
+  },
+  {
+    "Date": "2025-05-05",
+    "Ticker": "AAPL",
+    "Open": 203.1,
+    "High": 204.1,
+    "Low": 198.21,
+    "Close": 198.89,
+    "Volume": 69018452,
+    "Price": 198.89
+  },
+  {
+    "Date": "2025-05-02",
+    "Ticker": "AAPL",
+    "Open": 206.09,
+    "High": 206.99,
+    "Low": 202.16,
+    "Close": 205.35,
+    "Volume": 101010621,
+    "Price": 205.35
+  },
+  {
+    "Date": "2025-05-01",
+    "Ticker": "AAPL",
+    "Open": 209.08,
+    "High": 214.56,
+    "Low": 208.9,
+    "Close": 213.32,
+    "Volume": 57365675,
+    "Price": 213.32
+  },
+  {
+    "Date": "2025-04-30",
+    "Ticker": "AAPL",
+    "Open": 209.3,
+    "High": 213.58,
+    "Low": 206.67,
+    "Close": 212.5,
+    "Volume": 52286454,
+    "Price": 212.5
+  },
+  {
+    "Date": "2025-04-29",
+    "Ticker": "AAPL",
+    "Open": 208.69,
+    "High": 212.24,
+    "Low": 208.37,
+    "Close": 211.21,
+    "Volume": 36827633,
+    "Price": 211.21
+  },
+  {
+    "Date": "2025-04-28",
+    "Ticker": "AAPL",
+    "Open": 210.0,
+    "High": 211.5,
+    "Low": 207.46,
+    "Close": 210.14,
+    "Volume": 38743074,
+    "Price": 210.14
+  },
+  {
+    "Date": "2025-04-25",
+    "Ticker": "AAPL",
+    "Open": 206.37,
+    "High": 209.75,
+    "Low": 206.2,
+    "Close": 209.28,
+    "Volume": 38222258,
+    "Price": 209.28
+  },
+  {
+    "Date": "2025-04-24",
+    "Ticker": "AAPL",
+    "Open": 204.89,
+    "High": 208.83,
+    "Low": 202.94,
+    "Close": 208.37,
+    "Volume": 47310989,
+    "Price": 208.37
+  },
+  {
+    "Date": "2025-04-23",
+    "Ticker": "AAPL",
+    "Open": 206.0,
+    "High": 208.0,
+    "Low": 202.8,
+    "Close": 204.6,
+    "Volume": 52929165,
+    "Price": 204.6
+  },
+  {
+    "Date": "2025-04-22",
+    "Ticker": "AAPL",
+    "Open": 196.12,
+    "High": 201.59,
+    "Low": 195.97,
+    "Close": 199.74,
+    "Volume": 52976371,
+    "Price": 199.74
+  },
+  {
+    "Date": "2025-04-21",
+    "Ticker": "AAPL",
+    "Open": 193.26,
+    "High": 193.8,
+    "Low": 189.81,
+    "Close": 193.16,
+    "Volume": 46742537,
+    "Price": 193.16
+  },
+  {
+    "Date": "2025-04-17",
+    "Ticker": "AAPL",
+    "Open": 197.2,
+    "High": 198.83,
+    "Low": 194.42,
+    "Close": 196.98,
+    "Volume": 52164675,
+    "Price": 196.98
+  },
+  {
+    "Date": "2025-04-16",
+    "Ticker": "AAPL",
+    "Open": 198.36,
+    "High": 200.7,
+    "Low": 192.37,
+    "Close": 194.27,
+    "Volume": 59732423,
+    "Price": 194.27
+  },
+  {
+    "Date": "2025-04-15",
+    "Ticker": "AAPL",
+    "Open": 201.85,
+    "High": 203.51,
+    "Low": 199.8,
+    "Close": 202.14,
+    "Volume": 51343872,
+    "Price": 202.14
+  },
+  {
+    "Date": "2025-04-14",
+    "Ticker": "AAPL",
+    "Open": 211.44,
+    "High": 212.94,
+    "Low": 201.16,
+    "Close": 202.52,
+    "Volume": 101352911,
+    "Price": 202.52
+  },
+  {
+    "Date": "2025-04-11",
+    "Ticker": "AAPL",
+    "Open": 186.1,
+    "High": 199.54,
+    "Low": 186.06,
+    "Close": 198.15,
+    "Volume": 87435915,
+    "Price": 198.15
+  },
+  {
+    "Date": "2025-04-10",
+    "Ticker": "AAPL",
+    "Open": 189.06,
+    "High": 194.78,
+    "Low": 183.0,
+    "Close": 190.42,
+    "Volume": 121879981,
+    "Price": 190.42
+  },
+  {
+    "Date": "2025-04-09",
+    "Ticker": "AAPL",
+    "Open": 171.95,
+    "High": 200.61,
+    "Low": 171.89,
+    "Close": 198.85,
+    "Volume": 184395885,
+    "Price": 198.85
+  },
+  {
+    "Date": "2025-04-08",
+    "Ticker": "AAPL",
+    "Open": 186.7,
+    "High": 190.34,
+    "Low": 169.21,
+    "Close": 172.42,
+    "Volume": 120859491,
+    "Price": 172.42
+  },
+  {
+    "Date": "2025-04-07",
+    "Ticker": "AAPL",
+    "Open": 177.2,
+    "High": 194.15,
+    "Low": 174.62,
+    "Close": 181.46,
+    "Volume": 160466286,
+    "Price": 181.46
+  },
+  {
+    "Date": "2025-04-04",
+    "Ticker": "AAPL",
+    "Open": 193.89,
+    "High": 199.88,
+    "Low": 187.34,
+    "Close": 188.38,
+    "Volume": 125910913,
+    "Price": 188.38
+  },
+  {
+    "Date": "2025-04-03",
+    "Ticker": "AAPL",
+    "Open": 205.54,
+    "High": 207.49,
+    "Low": 201.25,
+    "Close": 203.19,
+    "Volume": 103419006,
+    "Price": 203.19
+  },
+  {
+    "Date": "2025-04-02",
+    "Ticker": "AAPL",
+    "Open": 221.31,
+    "High": 225.19,
+    "Low": 221.02,
+    "Close": 223.89,
+    "Volume": 35905904,
+    "Price": 223.89
+  },
+  {
+    "Date": "2025-04-01",
+    "Ticker": "AAPL",
+    "Open": 219.81,
+    "High": 223.68,
+    "Low": 218.9,
+    "Close": 223.19,
+    "Volume": 36412740,
+    "Price": 223.19
+  },
+  {
+    "Date": "2025-03-31",
+    "Ticker": "AAPL",
+    "Open": 217.0,
+    "High": 225.62,
+    "Low": 216.23,
+    "Close": 222.13,
+    "Volume": 65299321,
+    "Price": 222.13
+  },
+  {
+    "Date": "2025-08-21",
+    "Ticker": "MSFT",
+    "Open": 503.69,
+    "High": 507.63,
+    "Low": 502.72,
+    "Close": 504.24,
+    "Volume": 18443254,
+    "Price": 504.24
+  },
+  {
+    "Date": "2025-08-20",
+    "Ticker": "MSFT",
+    "Open": 509.87,
+    "High": 511.0,
+    "Low": 504.44,
+    "Close": 505.72,
+    "Volume": 27723025,
+    "Price": 505.72
+  },
+  {
+    "Date": "2025-08-19",
+    "Ticker": "MSFT",
+    "Open": 515.0,
+    "High": 515.16,
+    "Low": 508.55,
+    "Close": 509.77,
+    "Volume": 21481016,
+    "Price": 509.77
+  },
+  {
+    "Date": "2025-08-18",
+    "Ticker": "MSFT",
+    "Open": 521.59,
+    "High": 522.82,
+    "Low": 514.02,
+    "Close": 517.1,
+    "Volume": 23760583,
+    "Price": 517.1
+  },
+  {
+    "Date": "2025-08-15",
+    "Ticker": "MSFT",
+    "Open": 522.77,
+    "High": 526.1,
+    "Low": 519.08,
+    "Close": 520.17,
+    "Volume": 25213272,
+    "Price": 520.17
+  },
+  {
+    "Date": "2025-08-14",
+    "Ticker": "MSFT",
+    "Open": 522.56,
+    "High": 525.95,
+    "Low": 520.14,
+    "Close": 522.48,
+    "Volume": 20269074,
+    "Price": 522.48
+  },
+  {
+    "Date": "2025-08-13",
+    "Ticker": "MSFT",
+    "Open": 532.11,
+    "High": 532.7,
+    "Low": 519.37,
+    "Close": 520.58,
+    "Volume": 19619160,
+    "Price": 520.58
+  },
+  {
+    "Date": "2025-08-12",
+    "Ticker": "MSFT",
+    "Open": 523.75,
+    "High": 530.98,
+    "Low": 522.7,
+    "Close": 529.24,
+    "Volume": 18688921,
+    "Price": 529.24
+  },
+  {
+    "Date": "2025-08-11",
+    "Ticker": "MSFT",
+    "Open": 522.3,
+    "High": 527.59,
+    "Low": 519.72,
+    "Close": 521.77,
+    "Volume": 20194372,
+    "Price": 521.77
+  },
+  {
+    "Date": "2025-08-08",
+    "Ticker": "MSFT",
+    "Open": 522.6,
+    "High": 524.66,
+    "Low": 519.41,
+    "Close": 522.04,
+    "Volume": 15531009,
+    "Price": 522.04
+  },
+  {
+    "Date": "2025-08-07",
+    "Ticker": "MSFT",
+    "Open": 526.8,
+    "High": 528.09,
+    "Low": 517.55,
+    "Close": 520.84,
+    "Volume": 16079144,
+    "Price": 520.84
+  },
+  {
+    "Date": "2025-08-06",
+    "Ticker": "MSFT",
+    "Open": 530.9,
+    "High": 531.7,
+    "Low": 524.03,
+    "Close": 524.94,
+    "Volume": 21355702,
+    "Price": 524.94
+  },
+  {
+    "Date": "2025-08-05",
+    "Ticker": "MSFT",
+    "Open": 537.18,
+    "High": 537.3,
+    "Low": 527.24,
+    "Close": 527.75,
+    "Volume": 19171569,
+    "Price": 527.75
+  },
+  {
+    "Date": "2025-08-04",
+    "Ticker": "MSFT",
+    "Open": 528.27,
+    "High": 538.25,
+    "Low": 528.13,
+    "Close": 535.64,
+    "Volume": 25349004,
+    "Price": 535.64
+  },
+  {
+    "Date": "2025-08-01",
+    "Ticker": "MSFT",
+    "Open": 535.0,
+    "High": 535.8,
+    "Low": 520.86,
+    "Close": 524.11,
+    "Volume": 28977628,
+    "Price": 524.11
+  },
+  {
+    "Date": "2025-07-31",
+    "Ticker": "MSFT",
+    "Open": 555.23,
+    "High": 555.45,
+    "Low": 531.9,
+    "Close": 533.5,
+    "Volume": 51617326,
+    "Price": 533.5
+  },
+  {
+    "Date": "2025-07-30",
+    "Ticker": "MSFT",
+    "Open": 515.17,
+    "High": 515.95,
+    "Low": 509.44,
+    "Close": 513.24,
+    "Volume": 26380434,
+    "Price": 513.24
+  },
+  {
+    "Date": "2025-07-29",
+    "Ticker": "MSFT",
+    "Open": 515.53,
+    "High": 517.62,
+    "Low": 511.56,
+    "Close": 512.57,
+    "Volume": 16469235,
+    "Price": 512.57
+  },
+  {
+    "Date": "2025-07-28",
+    "Ticker": "MSFT",
+    "Open": 514.08,
+    "High": 515.0,
+    "Low": 510.12,
+    "Close": 512.5,
+    "Volume": 14308027,
+    "Price": 512.5
+  },
+  {
+    "Date": "2025-07-25",
+    "Ticker": "MSFT",
+    "Open": 512.47,
+    "High": 518.29,
+    "Low": 510.36,
+    "Close": 513.71,
+    "Volume": 19125699,
+    "Price": 513.71
+  },
+  {
+    "Date": "2025-07-24",
+    "Ticker": "MSFT",
+    "Open": 508.77,
+    "High": 513.67,
+    "Low": 507.3,
+    "Close": 510.88,
+    "Volume": 16107000,
+    "Price": 510.88
+  },
+  {
+    "Date": "2025-07-23",
+    "Ticker": "MSFT",
+    "Open": 506.75,
+    "High": 506.79,
+    "Low": 500.7,
+    "Close": 505.87,
+    "Volume": 16396585,
+    "Price": 505.87
+  },
+  {
+    "Date": "2025-07-22",
+    "Ticker": "MSFT",
+    "Open": 510.97,
+    "High": 511.2,
+    "Low": 505.27,
+    "Close": 505.27,
+    "Volume": 13868644,
+    "Price": 505.27
+  },
+  {
+    "Date": "2025-07-21",
+    "Ticker": "MSFT",
+    "Open": 506.7,
+    "High": 512.09,
+    "Low": 505.55,
+    "Close": 510.06,
+    "Volume": 14066805,
+    "Price": 510.06
+  },
+  {
+    "Date": "2025-07-18",
+    "Ticker": "MSFT",
+    "Open": 514.48,
+    "High": 514.64,
+    "Low": 507.43,
+    "Close": 510.05,
+    "Volume": 21209666,
+    "Price": 510.05
+  },
+  {
+    "Date": "2025-07-17",
+    "Ticker": "MSFT",
+    "Open": 505.68,
+    "High": 513.37,
+    "Low": 505.62,
+    "Close": 511.7,
+    "Volume": 17503129,
+    "Price": 511.7
+  },
+  {
+    "Date": "2025-07-16",
+    "Ticker": "MSFT",
+    "Open": 505.18,
+    "High": 506.72,
+    "Low": 501.89,
+    "Close": 505.62,
+    "Volume": 15154374,
+    "Price": 505.62
+  },
+  {
+    "Date": "2025-07-15",
+    "Ticker": "MSFT",
+    "Open": 503.02,
+    "High": 508.3,
+    "Low": 502.79,
+    "Close": 505.82,
+    "Volume": 14927202,
+    "Price": 505.82
+  },
+  {
+    "Date": "2025-07-14",
+    "Ticker": "MSFT",
+    "Open": 501.51,
+    "High": 503.97,
+    "Low": 501.03,
+    "Close": 503.02,
+    "Volume": 12058848,
+    "Price": 503.02
+  },
+  {
+    "Date": "2025-07-11",
+    "Ticker": "MSFT",
+    "Open": 498.47,
+    "High": 505.03,
+    "Low": 497.8,
+    "Close": 503.32,
+    "Volume": 16459512,
+    "Price": 503.32
+  },
+  {
+    "Date": "2025-07-10",
+    "Ticker": "MSFT",
+    "Open": 503.05,
+    "High": 504.44,
+    "Low": 497.75,
+    "Close": 501.48,
+    "Volume": 16498740,
+    "Price": 501.48
+  },
+  {
+    "Date": "2025-07-09",
+    "Ticker": "MSFT",
+    "Open": 500.3,
+    "High": 506.78,
+    "Low": 499.74,
+    "Close": 503.51,
+    "Volume": 18659538,
+    "Price": 503.51
+  },
+  {
+    "Date": "2025-07-08",
+    "Ticker": "MSFT",
+    "Open": 497.24,
+    "High": 498.2,
+    "Low": 494.11,
+    "Close": 496.62,
+    "Volume": 11846586,
+    "Price": 496.62
+  },
+  {
+    "Date": "2025-07-07",
+    "Ticker": "MSFT",
+    "Open": 497.38,
+    "High": 498.75,
+    "Low": 495.23,
+    "Close": 497.72,
+    "Volume": 13981605,
+    "Price": 497.72
+  },
+  {
+    "Date": "2025-07-03",
+    "Ticker": "MSFT",
+    "Open": 493.81,
+    "High": 500.13,
+    "Low": 493.44,
+    "Close": 498.84,
+    "Volume": 13984829,
+    "Price": 498.84
+  },
+  {
+    "Date": "2025-07-02",
+    "Ticker": "MSFT",
+    "Open": 489.99,
+    "High": 493.5,
+    "Low": 488.7,
+    "Close": 491.09,
+    "Volume": 16319641,
+    "Price": 491.09
+  },
+  {
+    "Date": "2025-07-01",
+    "Ticker": "MSFT",
+    "Open": 496.47,
+    "High": 498.05,
+    "Low": 490.98,
+    "Close": 492.05,
+    "Volume": 19945375,
+    "Price": 492.05
+  },
+  {
+    "Date": "2025-06-30",
+    "Ticker": "MSFT",
+    "Open": 497.04,
+    "High": 500.76,
+    "Low": 495.33,
+    "Close": 497.41,
+    "Volume": 28368991,
+    "Price": 497.41
+  },
+  {
+    "Date": "2025-06-27",
+    "Ticker": "MSFT",
+    "Open": 497.55,
+    "High": 499.3,
+    "Low": 493.03,
+    "Close": 495.94,
+    "Volume": 34539236,
+    "Price": 495.94
+  },
+  {
+    "Date": "2025-06-26",
+    "Ticker": "MSFT",
+    "Open": 492.98,
+    "High": 498.04,
+    "Low": 492.81,
+    "Close": 497.45,
+    "Volume": 21578853,
+    "Price": 497.45
+  },
+  {
+    "Date": "2025-06-25",
+    "Ticker": "MSFT",
+    "Open": 492.04,
+    "High": 494.56,
+    "Low": 489.39,
+    "Close": 492.27,
+    "Volume": 17495099,
+    "Price": 492.27
+  },
+  {
+    "Date": "2025-06-24",
+    "Ticker": "MSFT",
+    "Open": 488.95,
+    "High": 491.85,
+    "Low": 486.8,
+    "Close": 490.11,
+    "Volume": 22305642,
+    "Price": 490.11
+  },
+  {
+    "Date": "2025-06-23",
+    "Ticker": "MSFT",
+    "Open": 478.21,
+    "High": 487.75,
+    "Low": 472.51,
+    "Close": 486.0,
+    "Volume": 24863952,
+    "Price": 486.0
+  },
+  {
+    "Date": "2025-06-20",
+    "Ticker": "MSFT",
+    "Open": 482.23,
+    "High": 483.46,
+    "Low": 476.87,
+    "Close": 477.4,
+    "Volume": 37576206,
+    "Price": 477.4
+  },
+  {
+    "Date": "2025-06-18",
+    "Ticker": "MSFT",
+    "Open": 478.0,
+    "High": 481.0,
+    "Low": 474.46,
+    "Close": 480.24,
+    "Volume": 17526452,
+    "Price": 480.24
+  },
+  {
+    "Date": "2025-06-17",
+    "Ticker": "MSFT",
+    "Open": 475.39,
+    "High": 478.74,
+    "Low": 474.08,
+    "Close": 478.04,
+    "Volume": 15414128,
+    "Price": 478.04
+  },
+  {
+    "Date": "2025-06-16",
+    "Ticker": "MSFT",
+    "Open": 475.21,
+    "High": 480.69,
+    "Low": 475.0,
+    "Close": 479.14,
+    "Volume": 15626104,
+    "Price": 479.14
+  },
+  {
+    "Date": "2025-06-13",
+    "Ticker": "MSFT",
+    "Open": 476.41,
+    "High": 479.18,
+    "Low": 472.76,
+    "Close": 474.96,
+    "Volume": 16814456,
+    "Price": 474.96
+  },
+  {
+    "Date": "2025-06-12",
+    "Ticker": "MSFT",
+    "Open": 475.02,
+    "High": 480.42,
+    "Low": 473.52,
+    "Close": 478.87,
+    "Volume": 18950582,
+    "Price": 478.87
+  },
+  {
+    "Date": "2025-06-11",
+    "Ticker": "MSFT",
+    "Open": 470.02,
+    "High": 475.47,
+    "Low": 469.65,
+    "Close": 472.62,
+    "Volume": 16399176,
+    "Price": 472.62
+  },
+  {
+    "Date": "2025-06-10",
+    "Ticker": "MSFT",
+    "Open": 471.19,
+    "High": 472.8,
+    "Low": 466.96,
+    "Close": 470.92,
+    "Volume": 15375944,
+    "Price": 470.92
+  },
+  {
+    "Date": "2025-06-09",
+    "Ticker": "MSFT",
+    "Open": 469.7,
+    "High": 473.43,
+    "Low": 468.62,
+    "Close": 472.75,
+    "Volume": 16469932,
+    "Price": 472.75
+  },
+  {
+    "Date": "2025-06-06",
+    "Ticker": "MSFT",
+    "Open": 470.08,
+    "High": 473.33,
+    "Low": 468.78,
+    "Close": 470.38,
+    "Volume": 15285624,
+    "Price": 470.38
+  },
+  {
+    "Date": "2025-06-05",
+    "Ticker": "MSFT",
+    "Open": 464.95,
+    "High": 469.65,
+    "Low": 464.03,
+    "Close": 467.68,
+    "Volume": 20154460,
+    "Price": 467.68
+  },
+  {
+    "Date": "2025-06-04",
+    "Ticker": "MSFT",
+    "Open": 464.0,
+    "High": 465.69,
+    "Low": 463.02,
+    "Close": 463.87,
+    "Volume": 14162688,
+    "Price": 463.87
+  },
+  {
+    "Date": "2025-06-03",
+    "Ticker": "MSFT",
+    "Open": 461.47,
+    "High": 464.14,
+    "Low": 460.86,
+    "Close": 462.97,
+    "Volume": 15743760,
+    "Price": 462.97
+  },
+  {
+    "Date": "2025-06-02",
+    "Ticker": "MSFT",
+    "Open": 457.14,
+    "High": 462.11,
+    "Low": 456.89,
+    "Close": 461.97,
+    "Volume": 16626495,
+    "Price": 461.97
+  },
+  {
+    "Date": "2025-05-30",
+    "Ticker": "MSFT",
+    "Open": 459.71,
+    "High": 461.68,
+    "Low": 455.54,
+    "Close": 460.36,
+    "Volume": 34770475,
+    "Price": 460.36
+  },
+  {
+    "Date": "2025-05-29",
+    "Ticker": "MSFT",
+    "Open": 461.55,
+    "High": 461.72,
+    "Low": 455.31,
+    "Close": 458.68,
+    "Volume": 13982211,
+    "Price": 458.68
+  },
+  {
+    "Date": "2025-05-28",
+    "Ticker": "MSFT",
+    "Open": 461.22,
+    "High": 462.52,
+    "Low": 456.93,
+    "Close": 457.36,
+    "Volume": 17086261,
+    "Price": 457.36
+  },
+  {
+    "Date": "2025-05-27",
+    "Ticker": "MSFT",
+    "Open": 456.48,
+    "High": 460.95,
+    "Low": 456.12,
+    "Close": 460.69,
+    "Volume": 20974293,
+    "Price": 460.69
+  },
+  {
+    "Date": "2025-05-23",
+    "Ticker": "MSFT",
+    "Open": 449.98,
+    "High": 453.69,
+    "Low": 448.91,
+    "Close": 450.18,
+    "Volume": 16883509,
+    "Price": 450.18
+  },
+  {
+    "Date": "2025-05-22",
+    "Ticker": "MSFT",
+    "Open": 454.95,
+    "High": 460.25,
+    "Low": 453.9,
+    "Close": 454.86,
+    "Volume": 18025612,
+    "Price": 454.86
+  },
+  {
+    "Date": "2025-05-21",
+    "Ticker": "MSFT",
+    "Open": 454.57,
+    "High": 457.78,
+    "Low": 451.81,
+    "Close": 452.57,
+    "Volume": 19216906,
+    "Price": 452.57
+  },
+  {
+    "Date": "2025-05-20",
+    "Ticker": "MSFT",
+    "Open": 455.59,
+    "High": 458.34,
+    "Low": 454.32,
+    "Close": 458.17,
+    "Volume": 15441808,
+    "Price": 458.17
+  },
+  {
+    "Date": "2025-05-19",
+    "Ticker": "MSFT",
+    "Open": 450.88,
+    "High": 459.58,
+    "Low": 450.8,
+    "Close": 458.87,
+    "Volume": 21336509,
+    "Price": 458.87
+  },
+  {
+    "Date": "2025-05-16",
+    "Ticker": "MSFT",
+    "Open": 452.05,
+    "High": 454.36,
+    "Low": 448.73,
+    "Close": 454.27,
+    "Volume": 23849781,
+    "Price": 454.27
+  },
+  {
+    "Date": "2025-05-15",
+    "Ticker": "MSFT",
+    "Open": 450.76,
+    "High": 456.19,
+    "Low": 450.43,
+    "Close": 453.13,
+    "Volume": 21992323,
+    "Price": 453.13
+  },
+  {
+    "Date": "2025-05-14",
+    "Ticker": "MSFT",
+    "Open": 448.14,
+    "High": 453.9,
+    "Low": 448.14,
+    "Close": 452.94,
+    "Volume": 19902796,
+    "Price": 452.94
+  },
+  {
+    "Date": "2025-05-13",
+    "Ticker": "MSFT",
+    "Open": 447.78,
+    "High": 450.67,
+    "Low": 445.36,
+    "Close": 449.14,
+    "Volume": 23618819,
+    "Price": 449.14
+  },
+  {
+    "Date": "2025-05-12",
+    "Ticker": "MSFT",
+    "Open": 445.94,
+    "High": 449.37,
+    "Low": 439.78,
+    "Close": 449.26,
+    "Volume": 22821935,
+    "Price": 449.26
+  },
+  {
+    "Date": "2025-05-09",
+    "Ticker": "MSFT",
+    "Open": 440.0,
+    "High": 440.74,
+    "Low": 435.88,
+    "Close": 438.73,
+    "Volume": 15324233,
+    "Price": 438.73
+  },
+  {
+    "Date": "2025-05-08",
+    "Ticker": "MSFT",
+    "Open": 437.93,
+    "High": 443.67,
+    "Low": 435.66,
+    "Close": 438.17,
+    "Volume": 23491330,
+    "Price": 438.17
+  },
+  {
+    "Date": "2025-05-07",
+    "Ticker": "MSFT",
+    "Open": 433.84,
+    "High": 438.12,
+    "Low": 431.11,
+    "Close": 433.35,
+    "Volume": 23307241,
+    "Price": 433.35
+  },
+  {
+    "Date": "2025-05-06",
+    "Ticker": "MSFT",
+    "Open": 432.2,
+    "High": 437.73,
+    "Low": 431.17,
+    "Close": 433.31,
+    "Volume": 15104204,
+    "Price": 433.31
+  },
+  {
+    "Date": "2025-05-05",
+    "Ticker": "MSFT",
+    "Open": 432.87,
+    "High": 439.5,
+    "Low": 432.11,
+    "Close": 436.17,
+    "Volume": 20136053,
+    "Price": 436.17
+  },
+  {
+    "Date": "2025-05-02",
+    "Ticker": "MSFT",
+    "Open": 431.74,
+    "High": 439.44,
+    "Low": 429.99,
+    "Close": 435.28,
+    "Volume": 30757434,
+    "Price": 435.28
+  },
+  {
+    "Date": "2025-05-01",
+    "Ticker": "MSFT",
+    "Open": 431.11,
+    "High": 436.99,
+    "Low": 424.9,
+    "Close": 425.4,
+    "Volume": 58938100,
+    "Price": 425.4
+  },
+  {
+    "Date": "2025-04-30",
+    "Ticker": "MSFT",
+    "Open": 390.3,
+    "High": 396.66,
+    "Low": 384.44,
+    "Close": 395.26,
+    "Volume": 36461075,
+    "Price": 395.26
+  },
+  {
+    "Date": "2025-04-29",
+    "Ticker": "MSFT",
+    "Open": 391.3,
+    "High": 395.1,
+    "Low": 390.38,
+    "Close": 394.04,
+    "Volume": 14973976,
+    "Price": 394.04
+  },
+  {
+    "Date": "2025-04-28",
+    "Ticker": "MSFT",
+    "Open": 391.95,
+    "High": 392.74,
+    "Low": 386.64,
+    "Close": 391.16,
+    "Volume": 16579430,
+    "Price": 391.16
+  },
+  {
+    "Date": "2025-04-25",
+    "Ticker": "MSFT",
+    "Open": 387.0,
+    "High": 392.16,
+    "Low": 384.6,
+    "Close": 391.85,
+    "Volume": 18973165,
+    "Price": 391.85
+  },
+  {
+    "Date": "2025-04-24",
+    "Ticker": "MSFT",
+    "Open": 375.69,
+    "High": 388.45,
+    "Low": 375.19,
+    "Close": 387.3,
+    "Volume": 22232289,
+    "Price": 387.3
+  },
+  {
+    "Date": "2025-04-23",
+    "Ticker": "MSFT",
+    "Open": 376.06,
+    "High": 380.39,
+    "Low": 373.02,
+    "Close": 374.39,
+    "Volume": 20545526,
+    "Price": 374.39
+  },
+  {
+    "Date": "2025-04-22",
+    "Ticker": "MSFT",
+    "Open": 363.38,
+    "High": 367.77,
+    "Low": 359.86,
+    "Close": 366.82,
+    "Volume": 19484993,
+    "Price": 366.82
+  },
+  {
+    "Date": "2025-04-21",
+    "Ticker": "MSFT",
+    "Open": 362.81,
+    "High": 364.48,
+    "Low": 355.67,
+    "Close": 359.12,
+    "Volume": 20807279,
+    "Price": 359.12
+  },
+  {
+    "Date": "2025-04-17",
+    "Ticker": "MSFT",
+    "Open": 373.75,
+    "High": 374.32,
+    "Low": 366.89,
+    "Close": 367.78,
+    "Volume": 21120192,
+    "Price": 367.78
+  },
+  {
+    "Date": "2025-04-16",
+    "Ticker": "MSFT",
+    "Open": 380.67,
+    "High": 381.61,
+    "Low": 368.0,
+    "Close": 371.61,
+    "Volume": 21967826,
+    "Price": 371.61
+  },
+  {
+    "Date": "2025-04-15",
+    "Ticker": "MSFT",
+    "Open": 388.5,
+    "High": 391.89,
+    "Low": 384.16,
+    "Close": 385.73,
+    "Volume": 17199890,
+    "Price": 385.73
+  },
+  {
+    "Date": "2025-04-14",
+    "Ticker": "MSFT",
+    "Open": 393.22,
+    "High": 394.65,
+    "Low": 384.21,
+    "Close": 387.81,
+    "Volume": 19251172,
+    "Price": 387.81
+  },
+  {
+    "Date": "2025-04-11",
+    "Ticker": "MSFT",
+    "Open": 380.63,
+    "High": 390.05,
+    "Low": 378.89,
+    "Close": 388.45,
+    "Volume": 23839220,
+    "Price": 388.45
+  },
+  {
+    "Date": "2025-04-10",
+    "Ticker": "MSFT",
+    "Open": 382.06,
+    "High": 383.9,
+    "Low": 367.8,
+    "Close": 381.35,
+    "Volume": 38024368,
+    "Price": 381.35
+  },
+  {
+    "Date": "2025-04-09",
+    "Ticker": "MSFT",
+    "Open": 353.54,
+    "High": 393.23,
+    "Low": 353.1,
+    "Close": 390.49,
+    "Volume": 50199696,
+    "Price": 390.49
+  },
+  {
+    "Date": "2025-04-08",
+    "Ticker": "MSFT",
+    "Open": 368.25,
+    "High": 373.65,
+    "Low": 350.25,
+    "Close": 354.56,
+    "Volume": 35868918,
+    "Price": 354.56
+  },
+  {
+    "Date": "2025-04-07",
+    "Ticker": "MSFT",
+    "Open": 350.88,
+    "High": 371.0,
+    "Low": 344.79,
+    "Close": 357.86,
+    "Volume": 50424998,
+    "Price": 357.86
+  },
+  {
+    "Date": "2025-04-04",
+    "Ticker": "MSFT",
+    "Open": 364.12,
+    "High": 374.59,
+    "Low": 359.48,
+    "Close": 359.84,
+    "Volume": 49209854,
+    "Price": 359.84
+  },
+  {
+    "Date": "2025-04-03",
+    "Ticker": "MSFT",
+    "Open": 374.79,
+    "High": 377.48,
+    "Low": 369.35,
+    "Close": 373.11,
+    "Volume": 30197997,
+    "Price": 373.11
+  },
+  {
+    "Date": "2025-04-02",
+    "Ticker": "MSFT",
+    "Open": 377.96,
+    "High": 385.08,
+    "Low": 376.62,
+    "Close": 382.14,
+    "Volume": 16092555,
+    "Price": 382.14
+  },
+  {
+    "Date": "2025-04-01",
+    "Ticker": "MSFT",
+    "Open": 374.65,
+    "High": 382.85,
+    "Low": 373.23,
+    "Close": 382.19,
+    "Volume": 19689503,
+    "Price": 382.19
+  },
+  {
+    "Date": "2025-03-31",
+    "Ticker": "MSFT",
+    "Open": 372.54,
+    "High": 377.07,
+    "Low": 367.24,
+    "Close": 375.39,
+    "Volume": 35184676,
+    "Price": 375.39
+  },
+  {
+    "Date": "2025-08-21",
+    "Ticker": "GOOGL",
+    "Open": 199.75,
+    "High": 202.48,
+    "Low": 199.43,
+    "Close": 199.75,
+    "Volume": 19774633,
+    "Price": 199.75
+  },
+  {
+    "Date": "2025-08-20",
+    "Ticker": "GOOGL",
+    "Open": 200.73,
+    "High": 201.28,
+    "Low": 196.59,
+    "Close": 199.32,
+    "Volume": 28955498,
+    "Price": 199.32
+  },
+  {
+    "Date": "2025-08-19",
+    "Ticker": "GOOGL",
+    "Open": 203.03,
+    "High": 203.44,
+    "Low": 199.96,
+    "Close": 201.57,
+    "Volume": 24240233,
+    "Price": 201.57
+  },
+  {
+    "Date": "2025-08-18",
+    "Ticker": "GOOGL",
+    "Open": 204.2,
+    "High": 205.26,
+    "Low": 202.49,
+    "Close": 203.5,
+    "Volume": 18526594,
+    "Price": 203.5
+  },
+  {
+    "Date": "2025-08-15",
+    "Ticker": "GOOGL",
+    "Open": 203.85,
+    "High": 206.44,
+    "Low": 201.28,
+    "Close": 203.9,
+    "Volume": 34931422,
+    "Price": 203.9
+  },
+  {
+    "Date": "2025-08-14",
+    "Ticker": "GOOGL",
+    "Open": 201.5,
+    "High": 204.44,
+    "Low": 201.22,
+    "Close": 202.94,
+    "Volume": 25230427,
+    "Price": 202.94
+  },
+  {
+    "Date": "2025-08-13",
+    "Ticker": "GOOGL",
+    "Open": 204.13,
+    "High": 204.53,
+    "Low": 197.51,
+    "Close": 201.96,
+    "Volume": 28342922,
+    "Price": 201.96
+  },
+  {
+    "Date": "2025-08-12",
+    "Ticker": "GOOGL",
+    "Open": 201.37,
+    "High": 204.5,
+    "Low": 200.59,
+    "Close": 203.34,
+    "Volume": 30424452,
+    "Price": 203.34
+  },
+  {
+    "Date": "2025-08-11",
+    "Ticker": "GOOGL",
+    "Open": 200.94,
+    "High": 201.47,
+    "Low": 199.07,
+    "Close": 201.0,
+    "Volume": 25832435,
+    "Price": 201.0
+  },
+  {
+    "Date": "2025-08-08",
+    "Ticker": "GOOGL",
+    "Open": 197.22,
+    "High": 202.61,
+    "Low": 197.17,
+    "Close": 201.42,
+    "Volume": 39161826,
+    "Price": 201.42
+  },
+  {
+    "Date": "2025-08-07",
+    "Ticker": "GOOGL",
+    "Open": 197.06,
+    "High": 197.54,
+    "Low": 194.33,
+    "Close": 196.52,
+    "Volume": 26321811,
+    "Price": 196.52
+  },
+  {
+    "Date": "2025-08-06",
+    "Ticker": "GOOGL",
+    "Open": 194.5,
+    "High": 196.63,
+    "Low": 193.67,
+    "Close": 196.09,
+    "Volume": 21562908,
+    "Price": 196.09
+  },
+  {
+    "Date": "2025-08-05",
+    "Ticker": "GOOGL",
+    "Open": 194.71,
+    "High": 197.86,
+    "Low": 193.88,
+    "Close": 194.67,
+    "Volume": 31602340,
+    "Price": 194.67
+  },
+  {
+    "Date": "2025-08-04",
+    "Ticker": "GOOGL",
+    "Open": 190.29,
+    "High": 195.27,
+    "Low": 190.12,
+    "Close": 195.04,
+    "Volume": 31547350,
+    "Price": 195.04
+  },
+  {
+    "Date": "2025-08-01",
+    "Ticker": "GOOGL",
+    "Open": 189.03,
+    "High": 190.83,
+    "Low": 187.82,
+    "Close": 189.13,
+    "Volume": 34832181,
+    "Price": 189.13
+  },
+  {
+    "Date": "2025-07-31",
+    "Ticker": "GOOGL",
+    "Open": 195.71,
+    "High": 195.99,
+    "Low": 191.09,
+    "Close": 191.9,
+    "Volume": 51329163,
+    "Price": 191.9
+  },
+  {
+    "Date": "2025-07-30",
+    "Ticker": "GOOGL",
+    "Open": 195.6,
+    "High": 197.6,
+    "Low": 194.69,
+    "Close": 196.53,
+    "Volume": 32445405,
+    "Price": 196.53
+  },
+  {
+    "Date": "2025-07-29",
+    "Ticker": "GOOGL",
+    "Open": 192.43,
+    "High": 195.92,
+    "Low": 192.08,
+    "Close": 195.75,
+    "Volume": 41389153,
+    "Price": 195.75
+  },
+  {
+    "Date": "2025-07-28",
+    "Ticker": "GOOGL",
+    "Open": 193.65,
+    "High": 194.05,
+    "Low": 190.84,
+    "Close": 192.58,
+    "Volume": 38139504,
+    "Price": 192.58
+  },
+  {
+    "Date": "2025-07-25",
+    "Ticker": "GOOGL",
+    "Open": 191.98,
+    "High": 194.33,
+    "Low": 191.26,
+    "Close": 193.18,
+    "Volume": 39785863,
+    "Price": 193.18
+  },
+  {
+    "Date": "2025-07-24",
+    "Ticker": "GOOGL",
+    "Open": 197.03,
+    "High": 197.95,
+    "Low": 191.0,
+    "Close": 192.17,
+    "Volume": 74881687,
+    "Price": 192.17
+  },
+  {
+    "Date": "2025-07-23",
+    "Ticker": "GOOGL",
+    "Open": 191.5,
+    "High": 192.53,
+    "Low": 189.18,
+    "Close": 190.23,
+    "Volume": 58681948,
+    "Price": 190.23
+  },
+  {
+    "Date": "2025-07-22",
+    "Ticker": "GOOGL",
+    "Open": 191.5,
+    "High": 191.65,
+    "Low": 187.46,
+    "Close": 191.34,
+    "Volume": 44660215,
+    "Price": 191.34
+  },
+  {
+    "Date": "2025-07-21",
+    "Ticker": "GOOGL",
+    "Open": 186.25,
+    "High": 190.28,
+    "Low": 186.15,
+    "Close": 190.1,
+    "Volume": 45803129,
+    "Price": 190.1
+  },
+  {
+    "Date": "2025-07-18",
+    "Ticker": "GOOGL",
+    "Open": 185.4,
+    "High": 186.42,
+    "Low": 183.71,
+    "Close": 185.06,
+    "Volume": 34014509,
+    "Price": 185.06
+  },
+  {
+    "Date": "2025-07-17",
+    "Ticker": "GOOGL",
+    "Open": 182.14,
+    "High": 184.06,
+    "Low": 180.48,
+    "Close": 183.58,
+    "Volume": 31992565,
+    "Price": 183.58
+  },
+  {
+    "Date": "2025-07-16",
+    "Ticker": "GOOGL",
+    "Open": 183.24,
+    "High": 184.33,
+    "Low": 182.03,
+    "Close": 182.97,
+    "Volume": 33104193,
+    "Price": 182.97
+  },
+  {
+    "Date": "2025-07-15",
+    "Ticker": "GOOGL",
+    "Open": 182.81,
+    "High": 184.22,
+    "Low": 181.6,
+    "Close": 182.0,
+    "Volume": 33448251,
+    "Price": 182.0
+  },
+  {
+    "Date": "2025-07-14",
+    "Ticker": "GOOGL",
+    "Open": 181.01,
+    "High": 183.67,
+    "Low": 179.68,
+    "Close": 181.56,
+    "Volume": 32536632,
+    "Price": 181.56
+  },
+  {
+    "Date": "2025-07-11",
+    "Ticker": "GOOGL",
+    "Open": 176.78,
+    "High": 181.43,
+    "Low": 176.48,
+    "Close": 180.19,
+    "Volume": 34282922,
+    "Price": 180.19
+  },
+  {
+    "Date": "2025-07-10",
+    "Ticker": "GOOGL",
+    "Open": 175.63,
+    "High": 178.43,
+    "Low": 174.38,
+    "Close": 177.62,
+    "Volume": 29252386,
+    "Price": 177.62
+  },
+  {
+    "Date": "2025-07-09",
+    "Ticker": "GOOGL",
+    "Open": 175.25,
+    "High": 179.44,
+    "Low": 172.77,
+    "Close": 176.62,
+    "Volume": 43025594,
+    "Price": 176.62
+  },
+  {
+    "Date": "2025-07-08",
+    "Ticker": "GOOGL",
+    "Open": 177.85,
+    "High": 177.95,
+    "Low": 172.81,
+    "Close": 174.36,
+    "Volume": 40442535,
+    "Price": 174.36
+  },
+  {
+    "Date": "2025-07-07",
+    "Ticker": "GOOGL",
+    "Open": 179.06,
+    "High": 179.3,
+    "Low": 175.68,
+    "Close": 176.79,
+    "Volume": 34175648,
+    "Price": 176.79
+  },
+  {
+    "Date": "2025-07-03",
+    "Ticker": "GOOGL",
+    "Open": 178.5,
+    "High": 179.67,
+    "Low": 177.05,
+    "Close": 179.53,
+    "Volume": 21689729,
+    "Price": 179.53
+  },
+  {
+    "Date": "2025-07-02",
+    "Ticker": "GOOGL",
+    "Open": 175.54,
+    "High": 178.86,
+    "Low": 175.07,
+    "Close": 178.64,
+    "Volume": 29128947,
+    "Price": 178.64
+  },
+  {
+    "Date": "2025-07-01",
+    "Ticker": "GOOGL",
+    "Open": 175.74,
+    "High": 176.09,
+    "Low": 173.53,
+    "Close": 175.84,
+    "Volume": 35904526,
+    "Price": 175.84
+  },
+  {
+    "Date": "2025-06-30",
+    "Ticker": "GOOGL",
+    "Open": 180.78,
+    "High": 181.23,
+    "Low": 174.58,
+    "Close": 176.23,
+    "Volume": 63378856,
+    "Price": 176.23
+  },
+  {
+    "Date": "2025-06-27",
+    "Ticker": "GOOGL",
+    "Open": 173.54,
+    "High": 178.68,
+    "Low": 171.73,
+    "Close": 178.53,
+    "Volume": 108140200,
+    "Price": 178.53
+  },
+  {
+    "Date": "2025-06-26",
+    "Ticker": "GOOGL",
+    "Open": 172.43,
+    "High": 173.69,
+    "Low": 169.94,
+    "Close": 173.54,
+    "Volume": 31796690,
+    "Price": 173.54
+  },
+  {
+    "Date": "2025-06-25",
+    "Ticker": "GOOGL",
+    "Open": 167.63,
+    "High": 172.36,
+    "Low": 167.55,
+    "Close": 170.68,
+    "Volume": 35478989,
+    "Price": 170.68
+  },
+  {
+    "Date": "2025-06-24",
+    "Ticker": "GOOGL",
+    "Open": 166.92,
+    "High": 168.22,
+    "Low": 166.13,
+    "Close": 166.77,
+    "Volume": 40524312,
+    "Price": 166.77
+  },
+  {
+    "Date": "2025-06-23",
+    "Ticker": "GOOGL",
+    "Open": 166.27,
+    "High": 167.34,
+    "Low": 162.0,
+    "Close": 165.19,
+    "Volume": 57670985,
+    "Price": 165.19
+  },
+  {
+    "Date": "2025-06-20",
+    "Ticker": "GOOGL",
+    "Open": 173.94,
+    "High": 174.34,
+    "Low": 165.46,
+    "Close": 166.64,
+    "Volume": 75659917,
+    "Price": 166.64
+  },
+  {
+    "Date": "2025-06-18",
+    "Ticker": "GOOGL",
+    "Open": 176.01,
+    "High": 176.56,
+    "Low": 173.2,
+    "Close": 173.32,
+    "Volume": 28707524,
+    "Price": 173.32
+  },
+  {
+    "Date": "2025-06-17",
+    "Ticker": "GOOGL",
+    "Open": 175.7,
+    "High": 177.36,
+    "Low": 174.58,
+    "Close": 175.95,
+    "Volume": 24973043,
+    "Price": 175.95
+  },
+  {
+    "Date": "2025-06-16",
+    "Ticker": "GOOGL",
+    "Open": 174.73,
+    "High": 176.94,
+    "Low": 174.65,
+    "Close": 176.77,
+    "Volume": 27389208,
+    "Price": 176.77
+  },
+  {
+    "Date": "2025-06-13",
+    "Ticker": "GOOGL",
+    "Open": 172.44,
+    "High": 177.13,
+    "Low": 172.38,
+    "Close": 174.67,
+    "Volume": 27663107,
+    "Price": 174.67
+  },
+  {
+    "Date": "2025-06-12",
+    "Ticker": "GOOGL",
+    "Open": 176.18,
+    "High": 176.72,
+    "Low": 174.75,
+    "Close": 175.7,
+    "Volume": 20941873,
+    "Price": 175.7
+  },
+  {
+    "Date": "2025-06-11",
+    "Ticker": "GOOGL",
+    "Open": 179.77,
+    "High": 180.37,
+    "Low": 176.75,
+    "Close": 177.35,
+    "Volume": 31646757,
+    "Price": 177.35
+  },
+  {
+    "Date": "2025-06-10",
+    "Ticker": "GOOGL",
+    "Open": 176.2,
+    "High": 181.1,
+    "Low": 174.91,
+    "Close": 178.6,
+    "Volume": 61766121,
+    "Price": 178.6
+  },
+  {
+    "Date": "2025-06-09",
+    "Ticker": "GOOGL",
+    "Open": 174.54,
+    "High": 176.47,
+    "Low": 174.37,
+    "Close": 176.09,
+    "Volume": 28935906,
+    "Price": 176.09
+  },
+  {
+    "Date": "2025-06-06",
+    "Ticker": "GOOGL",
+    "Open": 170.83,
+    "High": 174.5,
+    "Low": 170.83,
+    "Close": 173.68,
+    "Volume": 35731832,
+    "Price": 173.68
+  },
+  {
+    "Date": "2025-06-05",
+    "Ticker": "GOOGL",
+    "Open": 170.34,
+    "High": 170.93,
+    "Low": 167.59,
+    "Close": 168.21,
+    "Volume": 36444564,
+    "Price": 168.21
+  },
+  {
+    "Date": "2025-06-04",
+    "Ticker": "GOOGL",
+    "Open": 166.74,
+    "High": 168.22,
+    "Low": 166.36,
+    "Close": 168.05,
+    "Volume": 26900838,
+    "Price": 168.05
+  },
+  {
+    "Date": "2025-06-03",
+    "Ticker": "GOOGL",
+    "Open": 167.49,
+    "High": 168.47,
+    "Low": 165.28,
+    "Close": 166.18,
+    "Volume": 45084903,
+    "Price": 166.18
+  },
+  {
+    "Date": "2025-06-02",
+    "Ticker": "GOOGL",
+    "Open": 167.84,
+    "High": 169.87,
+    "Low": 167.39,
+    "Close": 169.03,
+    "Volume": 38612272,
+    "Price": 169.03
+  },
+  {
+    "Date": "2025-05-30",
+    "Ticker": "GOOGL",
+    "Open": 171.35,
+    "High": 172.21,
+    "Low": 167.44,
+    "Close": 171.74,
+    "Volume": 52639911,
+    "Price": 171.74
+  },
+  {
+    "Date": "2025-05-29",
+    "Ticker": "GOOGL",
+    "Open": 174.0,
+    "High": 174.42,
+    "Low": 170.63,
+    "Close": 171.86,
+    "Volume": 29373803,
+    "Price": 171.86
+  },
+  {
+    "Date": "2025-05-28",
+    "Ticker": "GOOGL",
+    "Open": 173.16,
+    "High": 175.26,
+    "Low": 171.91,
+    "Close": 172.36,
+    "Volume": 34783997,
+    "Price": 172.36
+  },
+  {
+    "Date": "2025-05-27",
+    "Ticker": "GOOGL",
+    "Open": 170.16,
+    "High": 173.17,
+    "Low": 170.0,
+    "Close": 172.9,
+    "Volume": 37995670,
+    "Price": 172.9
+  },
+  {
+    "Date": "2025-05-23",
+    "Ticker": "GOOGL",
+    "Open": 169.06,
+    "High": 169.96,
+    "Low": 167.89,
+    "Close": 168.47,
+    "Volume": 35211439,
+    "Price": 168.47
+  },
+  {
+    "Date": "2025-05-22",
+    "Ticker": "GOOGL",
+    "Open": 171.85,
+    "High": 176.77,
+    "Low": 170.71,
+    "Close": 170.87,
+    "Volume": 74864418,
+    "Price": 170.87
+  },
+  {
+    "Date": "2025-05-21",
+    "Ticker": "GOOGL",
+    "Open": 163.69,
+    "High": 173.14,
+    "Low": 163.56,
+    "Close": 168.56,
+    "Volume": 73415956,
+    "Price": 168.56
+  },
+  {
+    "Date": "2025-05-20",
+    "Ticker": "GOOGL",
+    "Open": 166.43,
+    "High": 168.5,
+    "Low": 162.9,
+    "Close": 163.98,
+    "Volume": 46607656,
+    "Price": 163.98
+  },
+  {
+    "Date": "2025-05-19",
+    "Ticker": "GOOGL",
+    "Open": 164.51,
+    "High": 166.64,
+    "Low": 164.22,
+    "Close": 166.54,
+    "Volume": 30426097,
+    "Price": 166.54
+  },
+  {
+    "Date": "2025-05-16",
+    "Ticker": "GOOGL",
+    "Open": 167.72,
+    "High": 169.35,
+    "Low": 165.62,
+    "Close": 166.19,
+    "Volume": 42846925,
+    "Price": 166.19
+  },
+  {
+    "Date": "2025-05-15",
+    "Ticker": "GOOGL",
+    "Open": 165.84,
+    "High": 166.21,
+    "Low": 162.37,
+    "Close": 163.96,
+    "Volume": 33146669,
+    "Price": 163.96
+  },
+  {
+    "Date": "2025-05-14",
+    "Ticker": "GOOGL",
+    "Open": 159.96,
+    "High": 167.0,
+    "Low": 159.61,
+    "Close": 165.37,
+    "Volume": 48755869,
+    "Price": 165.37
+  },
+  {
+    "Date": "2025-05-13",
+    "Ticker": "GOOGL",
+    "Open": 158.79,
+    "High": 160.57,
+    "Low": 156.16,
+    "Close": 159.53,
+    "Volume": 42382126,
+    "Price": 159.53
+  },
+  {
+    "Date": "2025-05-12",
+    "Ticker": "GOOGL",
+    "Open": 157.49,
+    "High": 159.1,
+    "Low": 156.25,
+    "Close": 158.46,
+    "Volume": 44138818,
+    "Price": 158.46
+  },
+  {
+    "Date": "2025-05-09",
+    "Ticker": "GOOGL",
+    "Open": 154.17,
+    "High": 155.05,
+    "Low": 152.2,
+    "Close": 152.75,
+    "Volume": 32435281,
+    "Price": 152.75
+  },
+  {
+    "Date": "2025-05-08",
+    "Ticker": "GOOGL",
+    "Open": 155.0,
+    "High": 155.93,
+    "Low": 152.9,
+    "Close": 154.28,
+    "Volume": 57498692,
+    "Price": 154.28
+  },
+  {
+    "Date": "2025-05-07",
+    "Ticker": "GOOGL",
+    "Open": 164.08,
+    "High": 165.0,
+    "Low": 147.84,
+    "Close": 151.38,
+    "Volume": 127747554,
+    "Price": 151.38
+  },
+  {
+    "Date": "2025-05-06",
+    "Ticker": "GOOGL",
+    "Open": 162.17,
+    "High": 164.8,
+    "Low": 161.19,
+    "Close": 163.23,
+    "Volume": 21277210,
+    "Price": 163.23
+  },
+  {
+    "Date": "2025-05-05",
+    "Ticker": "GOOGL",
+    "Open": 163.0,
+    "High": 165.39,
+    "Low": 162.72,
+    "Close": 164.21,
+    "Volume": 21341814,
+    "Price": 164.21
+  },
+  {
+    "Date": "2025-05-02",
+    "Ticker": "GOOGL",
+    "Open": 163.41,
+    "High": 164.97,
+    "Low": 161.87,
+    "Close": 164.03,
+    "Volume": 25715005,
+    "Price": 164.03
+  },
+  {
+    "Date": "2025-05-01",
+    "Ticker": "GOOGL",
+    "Open": 160.45,
+    "High": 161.95,
+    "Low": 158.91,
+    "Close": 161.3,
+    "Volume": 30203248,
+    "Price": 161.3
+  },
+  {
+    "Date": "2025-04-30",
+    "Ticker": "GOOGL",
+    "Open": 157.97,
+    "High": 159.27,
+    "Low": 155.4,
+    "Close": 158.8,
+    "Volume": 34981059,
+    "Price": 158.8
+  },
+  {
+    "Date": "2025-04-29",
+    "Ticker": "GOOGL",
+    "Open": 160.32,
+    "High": 160.74,
+    "Low": 157.52,
+    "Close": 160.16,
+    "Volume": 26808958,
+    "Price": 160.16
+  },
+  {
+    "Date": "2025-04-28",
+    "Ticker": "GOOGL",
+    "Open": 162.43,
+    "High": 163.15,
+    "Low": 158.6,
+    "Close": 160.61,
+    "Volume": 29745782,
+    "Price": 160.61
+  },
+  {
+    "Date": "2025-04-25",
+    "Ticker": "GOOGL",
+    "Open": 165.07,
+    "High": 166.1,
+    "Low": 161.04,
+    "Close": 161.96,
+    "Volume": 56033995,
+    "Price": 161.96
+  },
+  {
+    "Date": "2025-04-24",
+    "Ticker": "GOOGL",
+    "Open": 156.15,
+    "High": 159.59,
+    "Low": 155.79,
+    "Close": 159.28,
+    "Volume": 45893951,
+    "Price": 159.28
+  },
+  {
+    "Date": "2025-04-23",
+    "Ticker": "GOOGL",
+    "Open": 155.61,
+    "High": 157.53,
+    "Low": 153.81,
+    "Close": 155.35,
+    "Volume": 31128833,
+    "Price": 155.35
+  },
+  {
+    "Date": "2025-04-22",
+    "Ticker": "GOOGL",
+    "Open": 148.89,
+    "High": 152.19,
+    "Low": 148.54,
+    "Close": 151.47,
+    "Volume": 26971774,
+    "Price": 151.47
+  },
+  {
+    "Date": "2025-04-21",
+    "Ticker": "GOOGL",
+    "Open": 148.88,
+    "High": 148.94,
+    "Low": 146.1,
+    "Close": 147.67,
+    "Volume": 26049115,
+    "Price": 147.67
+  },
+  {
+    "Date": "2025-04-17",
+    "Ticker": "GOOGL",
+    "Open": 154.29,
+    "High": 154.68,
+    "Low": 148.5,
+    "Close": 151.16,
+    "Volume": 33046576,
+    "Price": 151.16
+  },
+  {
+    "Date": "2025-04-16",
+    "Ticker": "GOOGL",
+    "Open": 153.1,
+    "High": 155.89,
+    "Low": 151.51,
+    "Close": 153.33,
+    "Volume": 28187421,
+    "Price": 153.33
+  },
+  {
+    "Date": "2025-04-15",
+    "Ticker": "GOOGL",
+    "Open": 159.12,
+    "High": 159.65,
+    "Low": 155.21,
+    "Close": 156.31,
+    "Volume": 27551534,
+    "Price": 156.31
+  },
+  {
+    "Date": "2025-04-14",
+    "Ticker": "GOOGL",
+    "Open": 160.0,
+    "High": 161.72,
+    "Low": 157.56,
+    "Close": 159.07,
+    "Volume": 30332957,
+    "Price": 159.07
+  },
+  {
+    "Date": "2025-04-11",
+    "Ticker": "GOOGL",
+    "Open": 152.9,
+    "High": 157.67,
+    "Low": 152.82,
+    "Close": 157.14,
+    "Volume": 33636239,
+    "Price": 157.14
+  },
+  {
+    "Date": "2025-04-10",
+    "Ticker": "GOOGL",
+    "Open": 156.54,
+    "High": 157.72,
+    "Low": 149.93,
+    "Close": 152.82,
+    "Volume": 48021972,
+    "Price": 152.82
+  },
+  {
+    "Date": "2025-04-09",
+    "Ticker": "GOOGL",
+    "Open": 144.41,
+    "High": 159.55,
+    "Low": 143.91,
+    "Close": 158.71,
+    "Volume": 70406232,
+    "Price": 158.71
+  },
+  {
+    "Date": "2025-04-08",
+    "Ticker": "GOOGL",
+    "Open": 151.22,
+    "High": 152.24,
+    "Low": 143.03,
+    "Close": 144.7,
+    "Volume": 52200208,
+    "Price": 144.7
+  },
+  {
+    "Date": "2025-04-07",
+    "Ticker": "GOOGL",
+    "Open": 141.55,
+    "High": 152.85,
+    "Low": 140.53,
+    "Close": 146.75,
+    "Volume": 76794136,
+    "Price": 146.75
+  },
+  {
+    "Date": "2025-04-04",
+    "Ticker": "GOOGL",
+    "Open": 148.01,
+    "High": 151.07,
+    "Low": 145.38,
+    "Close": 145.6,
+    "Volume": 62259539,
+    "Price": 145.6
+  },
+  {
+    "Date": "2025-04-03",
+    "Ticker": "GOOGL",
+    "Open": 151.11,
+    "High": 152.78,
+    "Low": 150.39,
+    "Close": 150.72,
+    "Volume": 46883371,
+    "Price": 150.72
+  },
+  {
+    "Date": "2025-04-02",
+    "Ticker": "GOOGL",
+    "Open": 155.15,
+    "High": 158.41,
+    "Low": 154.7,
+    "Close": 157.04,
+    "Volume": 25041730,
+    "Price": 157.04
+  },
+  {
+    "Date": "2025-04-01",
+    "Ticker": "GOOGL",
+    "Open": 153.62,
+    "High": 158.1,
+    "Low": 153.62,
+    "Close": 157.07,
+    "Volume": 30672899,
+    "Price": 157.07
+  },
+  {
+    "Date": "2025-03-31",
+    "Ticker": "GOOGL",
+    "Open": 153.11,
+    "High": 155.54,
+    "Low": 150.66,
+    "Close": 154.64,
+    "Volume": 54603464,
+    "Price": 154.64
+  },
+  {
+    "Date": "2025-08-21",
+    "Ticker": "SPY",
+    "Open": 636.28,
+    "High": 637.97,
+    "Low": 633.81,
+    "Close": 635.55,
+    "Volume": 54805775,
+    "Price": 635.55
+  },
+  {
+    "Date": "2025-08-20",
+    "Ticker": "SPY",
+    "Open": 639.4,
+    "High": 639.66,
+    "Low": 632.95,
+    "Close": 638.11,
+    "Volume": 88890298,
+    "Price": 638.11
+  },
+  {
+    "Date": "2025-08-19",
+    "Ticker": "SPY",
+    "Open": 643.12,
+    "High": 644.11,
+    "Low": 638.48,
+    "Close": 639.81,
+    "Volume": 69750731,
+    "Price": 639.81
+  },
+  {
+    "Date": "2025-08-18",
+    "Ticker": "SPY",
+    "Open": 642.86,
+    "High": 644.0,
+    "Low": 642.18,
+    "Close": 643.3,
+    "Volume": 43804914,
+    "Price": 643.3
+  },
+  {
+    "Date": "2025-08-15",
+    "Ticker": "SPY",
+    "Open": 645.99,
+    "High": 646.09,
+    "Low": 642.52,
+    "Close": 643.44,
+    "Volume": 68592507,
+    "Price": 643.44
+  },
+  {
+    "Date": "2025-08-14",
+    "Ticker": "SPY",
+    "Open": 642.79,
+    "High": 645.62,
+    "Low": 642.34,
+    "Close": 644.95,
+    "Volume": 59327466,
+    "Price": 644.95
+  },
+  {
+    "Date": "2025-08-13",
+    "Ticker": "SPY",
+    "Open": 644.91,
+    "High": 646.19,
+    "Low": 642.68,
+    "Close": 644.89,
+    "Volume": 60092790,
+    "Price": 644.89
+  },
+  {
+    "Date": "2025-08-12",
+    "Ticker": "SPY",
+    "Open": 638.29,
+    "High": 642.85,
+    "Low": 636.79,
+    "Close": 642.69,
+    "Volume": 64821798,
+    "Price": 642.69
+  },
+  {
+    "Date": "2025-08-11",
+    "Ticker": "SPY",
+    "Open": 637.46,
+    "High": 638.95,
+    "Low": 634.66,
+    "Close": 635.92,
+    "Volume": 58742300,
+    "Price": 635.92
+  },
+  {
+    "Date": "2025-08-08",
+    "Ticker": "SPY",
+    "Open": 634.06,
+    "High": 637.64,
+    "Low": 633.74,
+    "Close": 637.18,
+    "Volume": 64051626,
+    "Price": 637.18
+  },
+  {
+    "Date": "2025-08-07",
+    "Ticker": "SPY",
+    "Open": 636.24,
+    "High": 636.98,
+    "Low": 629.11,
+    "Close": 632.25,
+    "Volume": 74205791,
+    "Price": 632.25
+  },
+  {
+    "Date": "2025-08-06",
+    "Ticker": "SPY",
+    "Open": 629.05,
+    "High": 633.44,
+    "Low": 628.13,
+    "Close": 632.78,
+    "Volume": 64357525,
+    "Price": 632.78
+  },
+  {
+    "Date": "2025-08-05",
+    "Ticker": "SPY",
+    "Open": 631.79,
+    "High": 632.61,
+    "Low": 627.04,
+    "Close": 627.97,
+    "Volume": 68051401,
+    "Price": 627.97
+  },
+  {
+    "Date": "2025-08-04",
+    "Ticker": "SPY",
+    "Open": 625.67,
+    "High": 631.22,
+    "Low": 625.58,
+    "Close": 631.17,
+    "Volume": 73218015,
+    "Price": 631.17
+  },
+  {
+    "Date": "2025-08-01",
+    "Ticker": "SPY",
+    "Open": 626.3,
+    "High": 626.34,
+    "Low": 619.29,
+    "Close": 621.72,
+    "Volume": 140103572,
+    "Price": 621.72
+  },
+  {
+    "Date": "2025-07-31",
+    "Ticker": "SPY",
+    "Open": 639.46,
+    "High": 639.85,
+    "Low": 630.76,
+    "Close": 632.08,
+    "Volume": 103385246,
+    "Price": 632.08
+  },
+  {
+    "Date": "2025-07-30",
+    "Ticker": "SPY",
+    "Open": 635.92,
+    "High": 637.68,
+    "Low": 631.54,
+    "Close": 634.46,
+    "Volume": 80418851,
+    "Price": 634.46
+  },
+  {
+    "Date": "2025-07-29",
+    "Ticker": "SPY",
+    "Open": 638.35,
+    "High": 638.67,
+    "Low": 634.34,
+    "Close": 635.26,
+    "Volume": 60556278,
+    "Price": 635.26
+  },
+  {
+    "Date": "2025-07-28",
+    "Ticker": "SPY",
+    "Open": 637.48,
+    "High": 638.04,
+    "Low": 635.54,
+    "Close": 636.94,
+    "Volume": 54917102,
+    "Price": 636.94
+  },
+  {
+    "Date": "2025-07-25",
+    "Ticker": "SPY",
+    "Open": 635.09,
+    "High": 637.58,
+    "Low": 634.84,
+    "Close": 637.1,
+    "Volume": 56865364,
+    "Price": 637.1
+  },
+  {
+    "Date": "2025-07-24",
+    "Ticker": "SPY",
+    "Open": 634.6,
+    "High": 636.15,
+    "Low": 633.99,
+    "Close": 634.42,
+    "Volume": 71307134,
+    "Price": 634.42
+  },
+  {
+    "Date": "2025-07-23",
+    "Ticker": "SPY",
+    "Open": 631.55,
+    "High": 634.21,
+    "Low": 629.73,
+    "Close": 634.21,
+    "Volume": 70511036,
+    "Price": 634.21
+  },
+  {
+    "Date": "2025-07-22",
+    "Ticker": "SPY",
+    "Open": 629.1,
+    "High": 629.73,
+    "Low": 626.19,
+    "Close": 628.86,
+    "Volume": 60046288,
+    "Price": 628.86
+  },
+  {
+    "Date": "2025-07-21",
+    "Ticker": "SPY",
+    "Open": 628.77,
+    "High": 631.54,
+    "Low": 628.34,
+    "Close": 628.77,
+    "Volume": 63374984,
+    "Price": 628.77
+  },
+  {
+    "Date": "2025-07-18",
+    "Ticker": "SPY",
+    "Open": 629.3,
+    "High": 629.47,
+    "Low": 626.46,
+    "Close": 627.58,
+    "Volume": 65621645,
+    "Price": 627.58
+  },
+  {
+    "Date": "2025-07-17",
+    "Ticker": "SPY",
+    "Open": 624.4,
+    "High": 628.4,
+    "Low": 624.18,
+    "Close": 628.04,
+    "Volume": 68885683,
+    "Price": 628.04
+  },
+  {
+    "Date": "2025-07-16",
+    "Ticker": "SPY",
+    "Open": 623.74,
+    "High": 624.73,
+    "Low": 618.05,
+    "Close": 624.22,
+    "Volume": 88987511,
+    "Price": 624.22
+  },
+  {
+    "Date": "2025-07-15",
+    "Ticker": "SPY",
+    "Open": 627.52,
+    "High": 627.86,
+    "Low": 622.06,
+    "Close": 622.14,
+    "Volume": 74317260,
+    "Price": 622.14
+  },
+  {
+    "Date": "2025-07-14",
+    "Ticker": "SPY",
+    "Open": 623.16,
+    "High": 625.16,
+    "Low": 621.8,
+    "Close": 624.81,
+    "Volume": 51898518,
+    "Price": 624.81
+  },
+  {
+    "Date": "2025-07-11",
+    "Ticker": "SPY",
+    "Open": 622.74,
+    "High": 624.86,
+    "Low": 621.53,
+    "Close": 623.62,
+    "Volume": 63670226,
+    "Price": 623.62
+  },
+  {
+    "Date": "2025-07-10",
+    "Ticker": "SPY",
+    "Open": 624.2,
+    "High": 626.87,
+    "Low": 623.01,
+    "Close": 625.82,
+    "Volume": 57528960,
+    "Price": 625.82
+  },
+  {
+    "Date": "2025-07-09",
+    "Ticker": "SPY",
+    "Open": 622.77,
+    "High": 624.72,
+    "Low": 620.91,
+    "Close": 624.06,
+    "Volume": 66113326,
+    "Price": 624.06
+  },
+  {
+    "Date": "2025-07-08",
+    "Ticker": "SPY",
+    "Open": 621.35,
+    "High": 622.11,
+    "Low": 619.52,
+    "Close": 620.34,
+    "Volume": 59024585,
+    "Price": 620.34
+  },
+  {
+    "Date": "2025-07-07",
+    "Ticker": "SPY",
+    "Open": 623.36,
+    "High": 624.03,
+    "Low": 617.87,
+    "Close": 620.68,
+    "Volume": 74814505,
+    "Price": 620.68
+  },
+  {
+    "Date": "2025-07-03",
+    "Ticker": "SPY",
+    "Open": 622.45,
+    "High": 626.28,
+    "Low": 622.43,
+    "Close": 625.34,
+    "Volume": 51065789,
+    "Price": 625.34
+  },
+  {
+    "Date": "2025-07-02",
+    "Ticker": "SPY",
+    "Open": 617.24,
+    "High": 620.49,
+    "Low": 616.61,
+    "Close": 620.45,
+    "Volume": 66510374,
+    "Price": 620.45
+  },
+  {
+    "Date": "2025-07-01",
+    "Ticker": "SPY",
+    "Open": 616.36,
+    "High": 618.83,
+    "Low": 615.52,
+    "Close": 617.65,
+    "Volume": 70030140,
+    "Price": 617.65
+  },
+  {
+    "Date": "2025-06-30",
+    "Ticker": "SPY",
+    "Open": 617.38,
+    "High": 619.22,
+    "Low": 615.04,
+    "Close": 617.85,
+    "Volume": 92502541,
+    "Price": 617.85
+  },
+  {
+    "Date": "2025-06-27",
+    "Ticker": "SPY",
+    "Open": 612.88,
+    "High": 616.39,
+    "Low": 610.83,
+    "Close": 614.91,
+    "Volume": 86258398,
+    "Price": 614.91
+  },
+  {
+    "Date": "2025-06-26",
+    "Ticker": "SPY",
+    "Open": 608.99,
+    "High": 612.31,
+    "Low": 608.37,
+    "Close": 611.87,
+    "Volume": 78548361,
+    "Price": 611.87
+  },
+  {
+    "Date": "2025-06-25",
+    "Ticker": "SPY",
+    "Open": 607.91,
+    "High": 608.61,
+    "Low": 605.54,
+    "Close": 607.12,
+    "Volume": 62114767,
+    "Price": 607.12
+  },
+  {
+    "Date": "2025-06-24",
+    "Ticker": "SPY",
+    "Open": 604.33,
+    "High": 607.85,
+    "Low": 603.41,
+    "Close": 606.78,
+    "Volume": 67735293,
+    "Price": 606.78
+  },
+  {
+    "Date": "2025-06-23",
+    "Ticker": "SPY",
+    "Open": 595.04,
+    "High": 600.54,
+    "Low": 591.89,
+    "Close": 600.15,
+    "Volume": 87426039,
+    "Price": 600.15
+  },
+  {
+    "Date": "2025-06-20",
+    "Ticker": "SPY",
+    "Open": 598.38,
+    "High": 599.46,
+    "Low": 592.86,
+    "Close": 594.28,
+    "Volume": 94051374,
+    "Price": 594.28
+  },
+  {
+    "Date": "2025-06-18",
+    "Ticker": "SPY",
+    "Open": 598.44,
+    "High": 601.22,
+    "Low": 596.47,
+    "Close": 597.44,
+    "Volume": 76605029,
+    "Price": 597.44
+  },
+  {
+    "Date": "2025-06-17",
+    "Ticker": "SPY",
+    "Open": 600.21,
+    "High": 601.75,
+    "Low": 596.76,
+    "Close": 597.53,
+    "Volume": 82209365,
+    "Price": 597.53
+  },
+  {
+    "Date": "2025-06-16",
+    "Ticker": "SPY",
+    "Open": 600.4,
+    "High": 604.45,
+    "Low": 600.22,
+    "Close": 602.68,
+    "Volume": 79984125,
+    "Price": 602.68
+  },
+  {
+    "Date": "2025-06-13",
+    "Ticker": "SPY",
+    "Open": 598.5,
+    "High": 601.85,
+    "Low": 595.48,
+    "Close": 597.0,
+    "Volume": 89505996,
+    "Price": 597.0
+  },
+  {
+    "Date": "2025-06-12",
+    "Ticker": "SPY",
+    "Open": 600.01,
+    "High": 603.75,
+    "Low": 599.52,
+    "Close": 603.75,
+    "Volume": 64129003,
+    "Price": 603.75
+  },
+  {
+    "Date": "2025-06-11",
+    "Ticker": "SPY",
+    "Open": 604.19,
+    "High": 605.06,
+    "Low": 599.27,
+    "Close": 601.36,
+    "Volume": 73658225,
+    "Price": 601.36
+  },
+  {
+    "Date": "2025-06-10",
+    "Ticker": "SPY",
+    "Open": 600.22,
+    "High": 603.47,
+    "Low": 599.09,
+    "Close": 603.08,
+    "Volume": 66246973,
+    "Price": 603.08
+  },
+  {
+    "Date": "2025-06-09",
+    "Ticker": "SPY",
+    "Open": 599.72,
+    "High": 601.25,
+    "Low": 598.49,
+    "Close": 599.68,
+    "Volume": 53016418,
+    "Price": 599.68
+  },
+  {
+    "Date": "2025-06-06",
+    "Ticker": "SPY",
+    "Open": 598.66,
+    "High": 600.83,
+    "Low": 596.86,
+    "Close": 599.14,
+    "Volume": 66588743,
+    "Price": 599.14
+  },
+  {
+    "Date": "2025-06-05",
+    "Ticker": "SPY",
+    "Open": 597.63,
+    "High": 599.0,
+    "Low": 591.05,
+    "Close": 593.05,
+    "Volume": 92436397,
+    "Price": 593.05
+  },
+  {
+    "Date": "2025-06-04",
+    "Ticker": "SPY",
+    "Open": 596.96,
+    "High": 597.95,
+    "Low": 595.49,
+    "Close": 595.93,
+    "Volume": 57314199,
+    "Price": 595.93
+  },
+  {
+    "Date": "2025-06-03",
+    "Ticker": "SPY",
+    "Open": 592.34,
+    "High": 597.08,
+    "Low": 591.85,
+    "Close": 596.09,
+    "Volume": 63606204,
+    "Price": 596.09
+  },
+  {
+    "Date": "2025-06-02",
+    "Ticker": "SPY",
+    "Open": 587.76,
+    "High": 592.79,
+    "Low": 585.06,
+    "Close": 592.71,
+    "Volume": 61630502,
+    "Price": 592.71
+  },
+  {
+    "Date": "2025-05-30",
+    "Ticker": "SPY",
+    "Open": 588.93,
+    "High": 591.13,
+    "Low": 583.24,
+    "Close": 589.39,
+    "Volume": 90601242,
+    "Price": 589.39
+  },
+  {
+    "Date": "2025-05-29",
+    "Ticker": "SPY",
+    "Open": 593.06,
+    "High": 593.2,
+    "Low": 586.07,
+    "Close": 590.05,
+    "Volume": 70073758,
+    "Price": 590.05
+  },
+  {
+    "Date": "2025-05-28",
+    "Ticker": "SPY",
+    "Open": 591.56,
+    "High": 592.77,
+    "Low": 586.99,
+    "Close": 587.73,
+    "Volume": 68445512,
+    "Price": 587.73
+  },
+  {
+    "Date": "2025-05-27",
+    "Ticker": "SPY",
+    "Open": 586.07,
+    "High": 591.31,
+    "Low": 578.43,
+    "Close": 591.15,
+    "Volume": 72588475,
+    "Price": 591.15
+  },
+  {
+    "Date": "2025-05-23",
+    "Ticker": "SPY",
+    "Open": 575.98,
+    "High": 581.81,
+    "Low": 575.6,
+    "Close": 579.11,
+    "Volume": 76029046,
+    "Price": 579.11
+  },
+  {
+    "Date": "2025-05-22",
+    "Ticker": "SPY",
+    "Open": 582.66,
+    "High": 586.62,
+    "Low": 581.4,
+    "Close": 583.09,
+    "Volume": 70860417,
+    "Price": 583.09
+  },
+  {
+    "Date": "2025-05-21",
+    "Ticker": "SPY",
+    "Open": 588.44,
+    "High": 592.58,
+    "Low": 581.82,
+    "Close": 582.86,
+    "Volume": 95197657,
+    "Price": 582.86
+  },
+  {
+    "Date": "2025-05-20",
+    "Ticker": "SPY",
+    "Open": 593.09,
+    "High": 594.05,
+    "Low": 589.6,
+    "Close": 592.85,
+    "Volume": 60614492,
+    "Price": 592.85
+  },
+  {
+    "Date": "2025-05-19",
+    "Ticker": "SPY",
+    "Open": 588.1,
+    "High": 595.54,
+    "Low": 588.1,
+    "Close": 594.85,
+    "Volume": 68168509,
+    "Price": 594.85
+  },
+  {
+    "Date": "2025-05-16",
+    "Ticker": "SPY",
+    "Open": 591.25,
+    "High": 594.5,
+    "Low": 589.28,
+    "Close": 594.2,
+    "Volume": 76052101,
+    "Price": 594.2
+  },
+  {
+    "Date": "2025-05-15",
+    "Ticker": "SPY",
+    "Open": 585.56,
+    "High": 590.97,
+    "Low": 585.1,
+    "Close": 590.46,
+    "Volume": 71268145,
+    "Price": 590.46
+  },
+  {
+    "Date": "2025-05-14",
+    "Ticker": "SPY",
+    "Open": 587.81,
+    "High": 588.98,
+    "Low": 585.53,
+    "Close": 587.59,
+    "Volume": 66283531,
+    "Price": 587.59
+  },
+  {
+    "Date": "2025-05-13",
+    "Ticker": "SPY",
+    "Open": 583.41,
+    "High": 589.08,
+    "Low": 582.84,
+    "Close": 586.84,
+    "Volume": 67947225,
+    "Price": 586.84
+  },
+  {
+    "Date": "2025-05-12",
+    "Ticker": "SPY",
+    "Open": 581.47,
+    "High": 583.0,
+    "Low": 577.04,
+    "Close": 582.99,
+    "Volume": 78993570,
+    "Price": 582.99
+  },
+  {
+    "Date": "2025-05-09",
+    "Ticker": "SPY",
+    "Open": 566.48,
+    "High": 567.5,
+    "Low": 562.76,
+    "Close": 564.34,
+    "Volume": 37603427,
+    "Price": 564.34
+  },
+  {
+    "Date": "2025-05-08",
+    "Ticker": "SPY",
+    "Open": 565.24,
+    "High": 570.31,
+    "Low": 561.7,
+    "Close": 565.06,
+    "Volume": 65130787,
+    "Price": 565.06
+  },
+  {
+    "Date": "2025-05-07",
+    "Ticker": "SPY",
+    "Open": 560.15,
+    "High": 563.82,
+    "Low": 556.04,
+    "Close": 561.15,
+    "Volume": 55733229,
+    "Price": 561.15
+  },
+  {
+    "Date": "2025-05-06",
+    "Ticker": "SPY",
+    "Open": 557.93,
+    "High": 563.35,
+    "Low": 556.96,
+    "Close": 558.8,
+    "Volume": 48264708,
+    "Price": 558.8
+  },
+  {
+    "Date": "2025-05-05",
+    "Ticker": "SPY",
+    "Open": 562.57,
+    "High": 566.65,
+    "Low": 561.7,
+    "Close": 563.51,
+    "Volume": 38659222,
+    "Price": 563.51
+  },
+  {
+    "Date": "2025-05-02",
+    "Ticker": "SPY",
+    "Open": 564.73,
+    "High": 568.38,
+    "Low": 562.38,
+    "Close": 566.76,
+    "Volume": 60717270,
+    "Price": 566.76
+  },
+  {
+    "Date": "2025-05-01",
+    "Ticker": "SPY",
+    "Open": 560.37,
+    "High": 564.07,
+    "Low": 557.86,
+    "Close": 558.47,
+    "Volume": 63186146,
+    "Price": 558.47
+  },
+  {
+    "Date": "2025-04-30",
+    "Ticker": "SPY",
+    "Open": 547.57,
+    "High": 556.52,
+    "Low": 541.52,
+    "Close": 554.54,
+    "Volume": 93101463,
+    "Price": 554.54
+  },
+  {
+    "Date": "2025-04-29",
+    "Ticker": "SPY",
+    "Open": 548.91,
+    "High": 555.45,
+    "Low": 548.55,
+    "Close": 554.32,
+    "Volume": 47775121,
+    "Price": 554.32
+  },
+  {
+    "Date": "2025-04-28",
+    "Ticker": "SPY",
+    "Open": 551.39,
+    "High": 553.55,
+    "Low": 545.02,
+    "Close": 550.85,
+    "Volume": 47613755,
+    "Price": 550.85
+  },
+  {
+    "Date": "2025-04-25",
+    "Ticker": "SPY",
+    "Open": 546.65,
+    "High": 551.05,
+    "Low": 543.69,
+    "Close": 550.64,
+    "Volume": 61119590,
+    "Price": 550.64
+  },
+  {
+    "Date": "2025-04-24",
+    "Ticker": "SPY",
+    "Open": 536.72,
+    "High": 547.43,
+    "Low": 535.45,
+    "Close": 546.69,
+    "Volume": 64150418,
+    "Price": 546.69
+  },
+  {
+    "Date": "2025-04-23",
+    "Ticker": "SPY",
+    "Open": 540.43,
+    "High": 545.43,
+    "Low": 533.88,
+    "Close": 535.42,
+    "Volume": 90590658,
+    "Price": 535.42
+  },
+  {
+    "Date": "2025-04-22",
+    "Ticker": "SPY",
+    "Open": 520.14,
+    "High": 529.3,
+    "Low": 519.19,
+    "Close": 527.25,
+    "Volume": 75948117,
+    "Price": 527.25
+  },
+  {
+    "Date": "2025-04-21",
+    "Ticker": "SPY",
+    "Open": 521.16,
+    "High": 521.7,
+    "Low": 508.46,
+    "Close": 513.88,
+    "Volume": 69368129,
+    "Price": 513.88
+  },
+  {
+    "Date": "2025-04-17",
+    "Ticker": "SPY",
+    "Open": 527.64,
+    "High": 531.16,
+    "Low": 523.91,
+    "Close": 526.41,
+    "Volume": 79868083,
+    "Price": 526.41
+  },
+  {
+    "Date": "2025-04-16",
+    "Ticker": "SPY",
+    "Open": 531.68,
+    "High": 537.89,
+    "Low": 520.29,
+    "Close": 525.66,
+    "Volume": 83484814,
+    "Price": 525.66
+  },
+  {
+    "Date": "2025-04-15",
+    "Ticker": "SPY",
+    "Open": 539.67,
+    "High": 543.23,
+    "Low": 536.81,
+    "Close": 537.61,
+    "Volume": 56892874,
+    "Price": 537.61
+  },
+  {
+    "Date": "2025-04-14",
+    "Ticker": "SPY",
+    "Open": 544.05,
+    "High": 544.28,
+    "Low": 533.86,
+    "Close": 539.12,
+    "Volume": 68033993,
+    "Price": 539.12
+  },
+  {
+    "Date": "2025-04-11",
+    "Ticker": "SPY",
+    "Open": 523.01,
+    "High": 536.43,
+    "Low": 520.07,
+    "Close": 533.94,
+    "Volume": 97866334,
+    "Price": 533.94
+  },
+  {
+    "Date": "2025-04-10",
+    "Ticker": "SPY",
+    "Open": 532.17,
+    "High": 533.5,
+    "Low": 509.32,
+    "Close": 524.58,
+    "Volume": 162331225,
+    "Price": 524.58
+  },
+  {
+    "Date": "2025-04-09",
+    "Ticker": "SPY",
+    "Open": 493.44,
+    "High": 548.62,
+    "Low": 493.05,
+    "Close": 548.62,
+    "Volume": 241867317,
+    "Price": 548.62
+  },
+  {
+    "Date": "2025-04-08",
+    "Ticker": "SPY",
+    "Open": 521.86,
+    "High": 524.98,
+    "Low": 489.16,
+    "Close": 496.48,
+    "Volume": 165816581,
+    "Price": 496.48
+  },
+  {
+    "Date": "2025-04-07",
+    "Ticker": "SPY",
+    "Open": 489.19,
+    "High": 523.17,
+    "Low": 481.8,
+    "Close": 504.38,
+    "Volume": 256611355,
+    "Price": 504.38
+  },
+  {
+    "Date": "2025-04-04",
+    "Ticker": "SPY",
+    "Open": 523.67,
+    "High": 525.87,
+    "Low": 505.06,
+    "Close": 505.28,
+    "Volume": 217965131,
+    "Price": 505.28
+  },
+  {
+    "Date": "2025-04-03",
+    "Ticker": "SPY",
+    "Open": 545.11,
+    "High": 547.97,
+    "Low": 536.7,
+    "Close": 536.7,
+    "Volume": 125985998,
+    "Price": 536.7
+  },
+  {
+    "Date": "2025-04-02",
+    "Ticker": "SPY",
+    "Open": 555.05,
+    "High": 567.42,
+    "Low": 554.81,
+    "Close": 564.52,
+    "Volume": 76014544,
+    "Price": 564.52
+  },
+  {
+    "Date": "2025-04-01",
+    "Ticker": "SPY",
+    "Open": 557.45,
+    "High": 562.94,
+    "Low": 553.68,
+    "Close": 560.97,
+    "Volume": 54609641,
+    "Price": 560.97
+  },
+  {
+    "Date": "2025-03-31",
+    "Ticker": "SPY",
+    "Open": 549.83,
+    "High": 560.71,
+    "Low": 546.87,
+    "Close": 559.39,
+    "Volume": 95328213,
+    "Price": 559.39
+  }
+]
