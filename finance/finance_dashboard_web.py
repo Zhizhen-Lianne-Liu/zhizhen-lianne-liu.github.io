@@ -84,16 +84,26 @@ def __(stock_input, period_selector, pd, np, datetime, timedelta, json):
                 
                 # Create a synchronous fetch using XMLHttpRequest
                 def fetch_json_sync(url):
+                    print(f"DEBUG: Attempting to fetch {url}")
                     xhr = js.XMLHttpRequest.new()
                     xhr.open('GET', url, False)  # False = synchronous
                     xhr.send(None)
+                    print(f"DEBUG: XMLHttpRequest status: {xhr.status}")
+                    print(f"DEBUG: XMLHttpRequest statusText: {xhr.statusText}")
                     if xhr.status == 200:
-                        return json.loads(xhr.responseText)
+                        print(f"DEBUG: Response received, length: {len(xhr.responseText)}")
+                        data = json.loads(xhr.responseText)
+                        print(f"DEBUG: JSON parsed successfully, type: {type(data)}")
+                        return data
                     else:
-                        raise Exception(f"HTTP {xhr.status}")
+                        print(f"DEBUG: HTTP error {xhr.status}: {xhr.statusText}")
+                        raise Exception(f"HTTP {xhr.status}: {xhr.statusText}")
                 
+                print("DEBUG: Fetching stock data...")
                 stock_data = fetch_json_sync('/finance/data/stock_data.json')
+                print("DEBUG: Fetching timestamp info...")
                 timestamp_info = fetch_json_sync('/finance/data/last_updated.json')
+                print("DEBUG: Both files fetched successfully")
                 
             except (ImportError, Exception) as e:
                 print(f"WebAssembly fetch failed: {e}")
@@ -278,15 +288,23 @@ def __(alt, mo, pd, np, datetime, timedelta, json):
                     import js
                     
                     def fetch_json_sync(url):
+                        print(f"DEBUG MARKET: Attempting to fetch {url}")
                         xhr = js.XMLHttpRequest.new()
                         xhr.open('GET', url, False)
                         xhr.send(None)
+                        print(f"DEBUG MARKET: XMLHttpRequest status: {xhr.status}")
                         if xhr.status == 200:
-                            return json.loads(xhr.responseText)
+                            print(f"DEBUG MARKET: Response received, length: {len(xhr.responseText)}")
+                            data = json.loads(xhr.responseText)
+                            print(f"DEBUG MARKET: JSON parsed successfully")
+                            return data
                         else:
-                            raise Exception(f"HTTP {xhr.status}")
+                            print(f"DEBUG MARKET: HTTP error {xhr.status}: {xhr.statusText}")
+                            raise Exception(f"HTTP {xhr.status}: {xhr.statusText}")
                     
+                    print("DEBUG MARKET: Starting market data fetch...")
                     market_data = fetch_json_sync('/finance/data/market_overview.json')
+                    print("DEBUG MARKET: Market data fetched successfully")
                     
                 except (ImportError, Exception) as e:
                     print(f"WebAssembly fetch failed: {e}")
