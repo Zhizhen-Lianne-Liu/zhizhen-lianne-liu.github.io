@@ -54,10 +54,10 @@ jobs:
           def fetch_alpha_vantage_data(symbol, api_key):
               '''Fetch real data from Alpha Vantage API - no fallbacks'''
               try:
-                  # Alpha Vantage Daily Adjusted endpoint
+                  # Alpha Vantage Daily endpoint (free tier)
                   url = f'https://www.alphavantage.co/query'
                   params = {
-                      'function': 'TIME_SERIES_DAILY_ADJUSTED',
+                      'function': 'TIME_SERIES_DAILY',
                       'symbol': symbol,
                       'outputsize': 'compact',  # Last 100 days
                       'apikey': api_key
@@ -105,7 +105,7 @@ jobs:
                           'High': round(float(values['2. high']), 2),
                           'Low': round(float(values['3. low']), 2),
                           'Close': round(float(values['4. close']), 2),
-                          'Volume': int(values['6. volume']),
+                          'Volume': int(values['5. volume']),
                           'Price': round(float(values['4. close']), 2)
                       })
                   
