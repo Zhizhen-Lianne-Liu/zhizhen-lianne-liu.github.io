@@ -11,7 +11,7 @@ A WebAssembly-powered financial analysis tool that runs entirely in your browser
 ## 🚀 Launch Dashboard
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="finance_dashboard_web.html" style="display: inline-block; padding: 12px 24px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+  <a href="finance_dashboard_wasm.html" style="display: inline-block; padding: 12px 24px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
     Launch Interactive Dashboard
   </a>
 </div>

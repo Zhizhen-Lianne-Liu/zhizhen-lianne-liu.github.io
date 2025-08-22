@@ -83,10 +83,10 @@ def __(stock_input, period_selector, pd, np, datetime, timedelta, json):
                 import pyodide_js
                 from pyodide.http import open_url
                 
-                stock_data_response = open_url('./data/stock_data.json')
+                stock_data_response = open_url('/finance/data/stock_data.json')
                 stock_data = json.loads(stock_data_response)
                 
-                timestamp_response = open_url('./data/last_updated.json')
+                timestamp_response = open_url('/finance/data/last_updated.json')
                 timestamp_info = json.loads(timestamp_response)
                 
             except (ImportError, Exception):
@@ -268,7 +268,7 @@ def __(alt, mo, pd, np, datetime, timedelta, json):
                 try:
                     # Try pyodide fetch first (WebAssembly environment)
                     from pyodide.http import open_url
-                    market_data_response = open_url('./data/market_overview.json')
+                    market_data_response = open_url('/finance/data/market_overview.json')
                     market_data = json.loads(market_data_response)
                 except (ImportError, Exception):
                     # Fallback to direct file access for local testing
