@@ -80,7 +80,6 @@ def __(stock_input, period_selector, pd, np, datetime, timedelta, json):
             # For WebAssembly, use pyodide's fetch capability
             try:
                 # Try pyodide fetch first (WebAssembly environment)
-                import pyodide_js
                 from pyodide.http import open_url
                 
                 stock_data_response = open_url('/finance/data/stock_data.json')
