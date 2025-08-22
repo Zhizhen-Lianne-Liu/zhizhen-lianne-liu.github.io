@@ -77,27 +77,36 @@ def __(stock_input, period_selector, pd, np, datetime, timedelta, json):
 
         try:
             # Try to load real data from JSON files
-            # For WebAssembly, use pyodide's fetch capability
             try:
-                # Try pyodide fetch first (WebAssembly environment)
-                from pyodide.http import open_url
+                # For WebAssembly, use JavaScript fetch via js module
+                import js
+                from pyodide.ffi import to_js
                 
-                stock_data_response = open_url('/finance/data/stock_data.json')
-                stock_data = json.loads(stock_data_response)
+                # Create a synchronous fetch using XMLHttpRequest
+                def fetch_json_sync(url):
+                    xhr = js.XMLHttpRequest.new()
+                    xhr.open('GET', url, False)  # False = synchronous
+                    xhr.send(None)
+                    if xhr.status == 200:
+                        return json.loads(xhr.responseText)
+                    else:
+                        raise Exception(f"HTTP {xhr.status}")
                 
-                timestamp_response = open_url('/finance/data/last_updated.json')
-                timestamp_info = json.loads(timestamp_response)
+                stock_data = fetch_json_sync('/finance/data/stock_data.json')
+                timestamp_info = fetch_json_sync('/finance/data/last_updated.json')
                 
-            except (ImportError, Exception):
+            except (ImportError, Exception) as e:
+                print(f"WebAssembly fetch failed: {e}")
                 # Fallback to direct file access for local testing
-                with open('data/stock_data.json', 'r') as f:
-                    stock_data = json.load(f)
-                
                 try:
+                    with open('data/stock_data.json', 'r') as f:
+                        stock_data = json.load(f)
+                    
                     with open('data/last_updated.json', 'r') as f:
                         timestamp_info = json.load(f)
-                except:
-                    timestamp_info = {'last_updated': 'Unknown', 'market_date': 'Unknown'}
+                except Exception as file_err:
+                    print(f"File access failed: {file_err}")
+                    raise Exception(f"Both WebAssembly fetch and local file access failed")
 
             # Convert to DataFrame and filter
             df = pd.DataFrame(stock_data)
@@ -265,11 +274,22 @@ def __(alt, mo, pd, np, datetime, timedelta, json):
             # Try to load real market overview data
             try:
                 try:
-                    # Try pyodide fetch first (WebAssembly environment)
-                    from pyodide.http import open_url
-                    market_data_response = open_url('/finance/data/market_overview.json')
-                    market_data = json.loads(market_data_response)
-                except (ImportError, Exception):
+                    # For WebAssembly, use JavaScript XMLHttpRequest
+                    import js
+                    
+                    def fetch_json_sync(url):
+                        xhr = js.XMLHttpRequest.new()
+                        xhr.open('GET', url, False)
+                        xhr.send(None)
+                        if xhr.status == 200:
+                            return json.loads(xhr.responseText)
+                        else:
+                            raise Exception(f"HTTP {xhr.status}")
+                    
+                    market_data = fetch_json_sync('/finance/data/market_overview.json')
+                    
+                except (ImportError, Exception) as e:
+                    print(f"WebAssembly fetch failed: {e}")
                     # Fallback to direct file access for local testing
                     with open('data/market_overview.json', 'r') as f:
                         market_data = json.load(f)
