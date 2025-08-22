@@ -1,13 +1,8 @@
 {
-  "current_price": 635.55,
-  "change": 11.93,
-  "change_pct": 1.91,
+  "current_price": 645.31,
+  "change": 20.5,
+  "change_pct": 3.28,
   "data": [
-    {
-      "Date": "2025-07-11",
-      "Price": 623.62,
-      "Volume": 63670226
-    },
     {
       "Date": "2025-07-14",
       "Price": 624.81,
@@ -152,6 +147,11 @@
       "Date": "2025-08-21",
       "Price": 635.55,
       "Volume": 54805775
+    },
+    {
+      "Date": "2025-08-22",
+      "Price": 645.31,
+      "Volume": 83172656
     }
   ]
 }
