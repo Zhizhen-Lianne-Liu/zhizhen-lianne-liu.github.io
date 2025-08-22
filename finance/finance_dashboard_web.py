@@ -100,9 +100,9 @@ def __(stock_input, period_selector, pd, np, datetime, timedelta, json):
                         raise Exception(f"HTTP {xhr.status}: {xhr.statusText}")
                 
                 print("DEBUG: Fetching stock data...")
-                stock_data = fetch_json_sync('/finance/data/stock_data.json')
+                stock_data = fetch_json_sync('./data/stock_data.json')
                 print("DEBUG: Fetching timestamp info...")
-                timestamp_info = fetch_json_sync('/finance/data/last_updated.json')
+                timestamp_info = fetch_json_sync('./data/last_updated.json')
                 print("DEBUG: Both files fetched successfully")
                 
             except (ImportError, Exception) as e:
@@ -303,7 +303,7 @@ def __(alt, mo, pd, np, datetime, timedelta, json):
                             raise Exception(f"HTTP {xhr.status}: {xhr.statusText}")
                     
                     print("DEBUG MARKET: Starting market data fetch...")
-                    market_data = fetch_json_sync('/finance/data/market_overview.json')
+                    market_data = fetch_json_sync('./data/market_overview.json')
                     print("DEBUG MARKET: Market data fetched successfully")
                     
                 except (ImportError, Exception) as e:
